@@ -1,0 +1,612 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <!-- ════════════════════════════════════════════════ -->
+    <!-- RUSSIAN (RU) — Русский                          -->
+    <!-- ════════════════════════════════════════════════ -->
+
+    <!-- Language Name -->
+    <system:String x:Key="LanguageName">Russian</system:String>
+    <system:String x:Key="LanguageNativeName">Русский</system:String>
+
+    <!-- ▓▓▓ App & General ▓▓▓ -->
+    <system:String x:Key="AppName">Монитор трафика</system:String>
+    <system:String x:Key="AppSubtitle">Монитор скорости сети</system:String>
+    <system:String x:Key="OK">ОК</system:String>
+    <system:String x:Key="Cancel">Отмена</system:String>
+    <system:String x:Key="Apply">Применить</system:String>
+    <system:String x:Key="Close">Закрыть</system:String>
+    <system:String x:Key="Save">Сохранить</system:String>
+    <system:String x:Key="Reset">Сбросить</system:String>
+    <system:String x:Key="Yes">Да</system:String>
+    <system:String x:Key="No">Нет</system:String>
+    <system:String x:Key="Error">Ошибка</system:String>
+    <system:String x:Key="Success">Успешно</system:String>
+    <system:String x:Key="Warning">Предупреждение</system:String>
+    <system:String x:Key="Info">Информация</system:String>
+    <system:String x:Key="Refresh">Обновить</system:String>
+    <system:String x:Key="Browse">Обзор...</system:String>
+    <system:String x:Key="Today">Сегодня</system:String>
+    <system:String x:Key="Yesterday">Вчера</system:String>
+
+    <!-- ▓▓▓ Main Window ▓▓▓ -->
+    <system:String x:Key="MainWindowTitle">Монитор трафика</system:String>
+    <system:String x:Key="UploadLabel">Отправка:</system:String>
+    <system:String x:Key="DownloadLabel">Загрузка:</system:String>
+    <system:String x:Key="TodayLabel">Сегодня:</system:String>
+    <system:String x:Key="ConnectionLabel">Подключение:</system:String>
+    <system:String x:Key="Menu">Меню</system:String>
+
+    <!-- ▓▓▓ Tray Menu ▓▓▓ -->
+    <system:String x:Key="SelectNetworkConnections">Выбор сетевых подключений</system:String>
+    <system:String x:Key="AutoSelect">Автовыбор</system:String>
+    <system:String x:Key="ConnectionDetails">Детали подключения</system:String>
+    <system:String x:Key="HistoricalTraffic">История трафика</system:String>
+    <system:String x:Key="DisplaySettings">Настройки отображения...</system:String>
+    <system:String x:Key="ShowMainWindow">Показать главное окно</system:String>
+    <system:String x:Key="HideMainWindow">Скрыть главное окно</system:String>
+    <system:String x:Key="ShowTaskbarWindow">Показать окно панели задач</system:String>
+    <system:String x:Key="CloseTaskbarWindow">Закрыть окно панели задач</system:String>
+    <system:String x:Key="TaskManager">Диспетчер задач</system:String>
+    <system:String x:Key="Options">Настройки...</system:String>
+    <system:String x:Key="AppSettings">Настройки приложения...</system:String>
+    <system:String x:Key="Help">Помощь</system:String>
+    <system:String x:Key="About">О программе...</system:String>
+    <system:String x:Key="Exit">Выход</system:String>
+
+    <!-- ▓▓▓ Options Window ▓▓▓ -->
+    <system:String x:Key="OptionSettings">Настройки</system:String>
+    <system:String x:Key="MainWindowSettings">Настройки главного окна</system:String>
+    <system:String x:Key="TaskbarWindowSettings">Настройки окна панели задач</system:String>
+    <system:String x:Key="GeneralSettingsTab">Общие настройки</system:String>
+
+    <system:String x:Key="ColorAndFont">Цвет и шрифт</system:String>
+    <system:String x:Key="Font">Шрифт:</system:String>
+    <system:String x:Key="ChooseFont">Выбрать шрифт...</system:String>
+    <system:String x:Key="FontSize">Размер шрифта:</system:String>
+    <system:String x:Key="RestoreDefault">Восстановить по умолчанию</system:String>
+    <system:String x:Key="TextColor">Цвет текста:</system:String>
+    <system:String x:Key="BackgroundColor">Цвет фона:</system:String>
+    <system:String x:Key="BackgroundTransparent">Прозрачный фон</system:String>
+
+    <system:String x:Key="DisplayText">Отображение текста</system:String>
+    <system:String x:Key="SwapUpDown">Поменять местами отправку и загрузку</system:String>
+    <system:String x:Key="SpeedShortMode">Короткий режим отображения скорости</system:String>
+    <system:String x:Key="SeparateValueUnit">Разделять значение и единицу пробелом</system:String>
+    <system:String x:Key="ShowToolTip">Показывать всплывающую подсказку</system:String>
+
+    <system:String x:Key="WindowBehavior">Поведение окна</system:String>
+    <system:String x:Key="AlwaysOnTop">Поверх всех окон</system:String>
+    <system:String x:Key="LockWindowPos">Заблокировать положение окна</system:String>
+    <system:String x:Key="HideMainWindowFullscreen">Скрывать главное окно в полноэкранном режиме</system:String>
+    <system:String x:Key="DoubleClickAction">Действие двойного щелчка:</system:String>
+    <system:String x:Key="OpenConnectionDetails">Открыть детали подключения</system:String>
+    <system:String x:Key="OpenHistoricalTraffic">Открыть историю трафика</system:String>
+    <system:String x:Key="OpenOptions">Открыть настройки</system:String>
+    <system:String x:Key="OpenTaskManagerAction">Открыть диспетчер задач</system:String>
+    <system:String x:Key="DoNothing">Ничего не делать</system:String>
+
+    <system:String x:Key="UnitSettings">Настройки единиц</system:String>
+    <system:String x:Key="NetSpeedUnit">Единица скорости сети</system:String>
+    <system:String x:Key="NetspeedUnit">Единица скорости:</system:String>
+    <system:String x:Key="UnitByteLabel">B (Байт)</system:String>
+    <system:String x:Key="UnitByte">Байт (KB/s, MB/s)</system:String>
+    <system:String x:Key="UnitBitLabel">b (бит)</system:String>
+    <system:String x:Key="UnitBit">Бит (Kbps, Mbps)</system:String>
+    <system:String x:Key="UnitSelection">Выбор единицы:</system:String>
+    <system:String x:Key="UnitAuto">Авто</system:String>
+    <system:String x:Key="AutoUnit">Авто (Динамически)</system:String>
+    <system:String x:Key="UnitKB">KB/s</system:String>
+    <system:String x:Key="UnitMB">MB/s</system:String>
+    <system:String x:Key="HideUnitLabel">Не показывать единицу скорости</system:String>
+
+    <!-- Taskbar tab -->
+    <system:String x:Key="TaskbarDisplaySettings">Настройки отображения</system:String>
+    <system:String x:Key="AlignValuesRight">Выравнивать значения по правому краю</system:String>
+    <system:String x:Key="NetSpeedDataWidth">Ширина данных скорости:</system:String>
+    <system:String x:Key="HorizontalArrange">Горизонтальное расположение</system:String>
+    <system:String x:Key="ItemSpacing">Расстояние между элементами:</system:String>
+    <system:String x:Key="VerticalMargin">Вертикальный отступ:</system:String>
+    <system:String x:Key="TaskbarWindowPosition">Положение окна панели задач</system:String>
+    <system:String x:Key="TaskbarOnLeft">Окно панели задач слева от панели задач</system:String>
+    <system:String x:Key="TaskbarWindowOnLeft">Окно панели задач слева</system:String>
+    <system:String x:Key="DigitsNumber">Количество цифр</system:String>
+    <system:String x:Key="Characters">Знаков</system:String>
+
+    <system:String x:Key="NetSpeedGraph">График скорости</system:String>
+    <system:String x:Key="ShowNetSpeedGraph">Показывать график скорости</system:String>
+    <system:String x:Key="MaxValue">Макс. значение:</system:String>
+    <system:String x:Key="GraphColor">Цвет графика:</system:String>
+    <system:String x:Key="BarMode">Режим столбцов</system:String>
+    <system:String x:Key="PlotMode">Режим графика</system:String>
+
+    <!-- General tab -->
+    <system:String x:Key="ApplicationSettings">Настройки приложения</system:String>
+    <system:String x:Key="CheckUpdateAtStart">Проверять обновления при запуске</system:String>
+    <system:String x:Key="CheckNow">Проверить сейчас</system:String>
+    <system:String x:Key="AutoRun">Автозапуск при старте Windows</system:String>
+    <system:String x:Key="ApplyAutorun">Применить автозапуск</system:String>
+    <system:String x:Key="LanguageLabel">Язык:</system:String>
+    <system:String x:Key="FollowingSystem">Как в системе</system:String>
+    <system:String x:Key="ShowNotifyIcon">Показывать значок в трее</system:String>
+
+    <system:String x:Key="TrafficNotifications">Уведомления о трафике</system:String>
+    <system:String x:Key="NotifyTrafficReached">Уведомлять при достижении дневного лимита</system:String>
+    <system:String x:Key="LimitLabel">Лимит:</system:String>
+    <system:String x:Key="NotificationMessage">Уведомления и сообщения</system:String>
+
+    <system:String x:Key="NetworkConnection">Сетевое подключение</system:String>
+    <system:String x:Key="ShowAllConnections">Показать все подключения</system:String>
+    <system:String x:Key="AutoSelectActive">Автовыбор активного подключения</system:String>
+    <system:String x:Key="SelectConnectionToMonitor">Выберите подключение для мониторинга...</system:String>
+    <system:String x:Key="MonitoringInterval">Интервал мониторинга:</system:String>
+    <system:String x:Key="Milliseconds">миллисекунд</system:String>
+
+    <!-- ▓▓▓ History Window ▓▓▓ -->
+    <system:String x:Key="HistoryTitle">История трафика</system:String>
+    <system:String x:Key="ListView">Список</system:String>
+    <system:String x:Key="CalendarView">Календарь</system:String>
+    <system:String x:Key="ViewType">Тип просмотра:</system:String>
+    <system:String x:Key="DayView">По дням</system:String>
+    <system:String x:Key="MonthView">По месяцам</system:String>
+    <system:String x:Key="YearView">По годам</system:String>
+    <system:String x:Key="FigureViewScale">Масштаб отображения:</system:String>
+    <system:String x:Key="LinearScale">Линейный</system:String>
+    <system:String x:Key="LogarithmicScale">Логарифмический</system:String>
+    <system:String x:Key="DateColumn">Дата</system:String>
+    <system:String x:Key="UploadColumn">Отправка</system:String>
+    <system:String x:Key="DownloadColumn">Загрузка</system:String>
+    <system:String x:Key="TotalTrafficColumn">Всего трафика</system:String>
+    <system:String x:Key="FigureColumn">График</system:String>
+    <system:String x:Key="Year">Год:</system:String>
+    <system:String x:Key="Month">Месяц:</system:String>
+    <system:String x:Key="Legend">Легенда:</system:String>
+    <system:String x:Key="MonthTotalTraffic">Трафик за текущий месяц:</system:String>
+
+    <!-- ▓▓▓ Network Info Window ▓▓▓ -->
+    <system:String x:Key="SubnetMask">Маска подсети</system:String>
+    <system:String x:Key="DefaultGateway">Основной шлюз</system:String>
+    <system:String x:Key="DnsServers">DNS-серверы</system:String>
+    <system:String x:Key="LinkSpeed">Скорость соединения</system:String>
+    <system:String x:Key="BytesReceived">Получено байт</system:String>
+    <system:String x:Key="BytesSent">Отправлено байт</system:String>
+    <system:String x:Key="ConnectionType">Тип подключения</system:String>
+    <system:String x:Key="NetworkInfoTitle">Детали подключения</system:String>
+    <system:String x:Key="NetworkConnectionInfo">Информация о сетевом подключении</system:String>
+    <system:String x:Key="PropertyColumn">Свойство</system:String>
+    <system:String x:Key="ValueColumn">Значение</system:String>
+    <system:String x:Key="PropName">Имя</system:String>
+    <system:String x:Key="PropDescription">Описание</system:String>
+    <system:String x:Key="PropIpAddress">IP-адрес</system:String>
+    <system:String x:Key="PropMacAddress">MAC-адрес</system:String>
+    <system:String x:Key="PropSpeed">Скорость</system:String>
+    <system:String x:Key="PropStatus">Состояние</system:String>
+    <system:String x:Key="StatusActive">Активно</system:String>
+    <system:String x:Key="StatusInactive">Неактивно</system:String>
+
+    <!-- ▓▓▓ About Window ▓▓▓ -->
+    <system:String x:Key="AboutTitle">О программе</system:String>
+    <system:String x:Key="VersionLabel">Версия 1.0.0</system:String>
+    <system:String x:Key="AboutDescription">Простой инструмент для мониторинга сетевого трафика</system:String>
+    <system:String x:Key="MadeWithLove_Part1">Сделано с</system:String>
+    <system:String x:Key="MadeWithLove_Part2">От</system:String>
+    <system:String x:Key="DeveloperName">Тарек Садек</system:String>
+    <system:String x:Key="LeadDeveloper">Ведущий разработчик</system:String>
+    <system:String x:Key="Website">Веб-сайт</system:String>
+    <system:String x:Key="Donate">Пожертвовать</system:String>
+    <system:String x:Key="Email">Email</system:String>
+    <system:String x:Key="AllRightsReserved">Все права защищены</system:String>
+
+    <!-- ▓▓▓ App Settings (New Window) ▓▓▓ -->
+    <system:String x:Key="AppSettingsTitle">Настройки приложения</system:String>
+    <system:String x:Key="GeneralSection">Основные</system:String>
+    <system:String x:Key="Language">Язык</system:String>
+    <system:String x:Key="ChoosePreferredInterface">Выберите предпочитаемый язык интерфейса</system:String>
+    <system:String x:Key="EnglishUS">Английский</system:String>
+    <system:String x:Key="Arabic">Арабский</system:String>
+    <system:String x:Key="French">Французский</system:String>
+    <system:String x:Key="Spanish">Испанский</system:String>
+    <system:String x:Key="Russian">Русский</system:String>
+
+    <system:String x:Key="Appearance">Внешний вид</system:String>
+    <system:String x:Key="DarkMode">Тёмный режим</system:String>
+    <system:String x:Key="GlobalTheme">Применить тему ко всем окнам</system:String>
+    <system:String x:Key="WindowOpacity">Прозрачность окон</system:String>
+    <system:String x:Key="AdjustTransparency">Настройка уровня прозрачности</system:String>
+
+    <system:String x:Key="SystemSection">Система</system:String>
+    <system:String x:Key="RunAtStartup">Запуск при старте</system:String>
+    <system:String x:Key="LaunchAutomatically">Автоматический запуск вместе с Windows</system:String>
+    <system:String x:Key="MinimizeToTray">Сворачивать в трей</system:String>
+    <system:String x:Key="CloseToTrayDescription">Продолжать работу в системном трее</system:String>
+    <system:String x:Key="HardwareAcceleration">Аппаратное ускорение</system:String>
+    <system:String x:Key="UseGPU">Использовать GPU для лучшей производительности</system:String>
+    <system:String x:Key="ReportBug">Сообщить об ошибке</system:String>
+
+    <system:String x:Key="ApplyChanges">Применить изменения</system:String>
+    <system:String x:Key="ChangesSavedOnClose">Изменения будут сохранены при закрытии</system:String>
+    <system:String x:Key="TrafficMonitorVersion">Монитор трафика v1.0.0</system:String>
+
+    <!-- Options -->
+    <system:String x:Key="MousePenetrate">Проникновение мыши (клик сквозь окно)</system:String>
+    <system:String x:Key="Opacity">Прозрачность</system:String>
+    <system:String x:Key="TaskbarPosition">Положение</system:String>
+    <system:String x:Key="TaskbarDisplay">Отображение</system:String>
+    <system:String x:Key="HorizontalOffset">Горизонтальное смещение</system:String>
+    <system:String x:Key="VerticalOffset">Вертикальное смещение</system:String>
+    <system:String x:Key="ShowArrows">Показывать стрелки</system:String>
+    <system:String x:Key="AppearanceSettings">Внешний вид</system:String>
+    <system:String x:Key="Theme">Тема</system:String>
+    <system:String x:Key="ThemeLight">Светлая</system:String>
+    <system:String x:Key="ThemeDark">Тёмная</system:String>
+    <system:String x:Key="ThemeAuto">Авто (Система)</system:String>
+
+    <system:String x:Key="StartupSettings">Запуск</system:String>
+    <system:String x:Key="StartWithWindows">Запускать с Windows</system:String>
+    <system:String x:Key="StartMinimized">Запускать свёрнутым</system:String>
+    <system:String x:Key="ShowTrayIcon">Показывать значок в трее</system:String>
+
+    <system:String x:Key="Monitoring">Мониторинг</system:String>
+    <system:String x:Key="UpdateInterval">Интервал обновления</system:String>
+
+    <system:String x:Key="Description">Описание:</system:String>
+    <system:String x:Key="IPAddress">IP-адрес:</system:String>
+    <system:String x:Key="MAC">MAC:</system:String>
+    <system:String x:Key="Speed">Скорость:</system:String>
+
+    <system:String x:Key="AppDescription">Инструмент мониторинга сетевого трафика в реальном времени с современным интерфейсом.</system:String>
+
+    <system:String x:Key="Status">Статус</system:String>
+    <system:String x:Key="NetworkConnections">Сетевые подключения</system:String>
+    <system:String x:Key="NoActiveConnections">Активных подключений не найдено</system:String>
+
+    <!-- Days of week -->
+    <system:String x:Key="DaySun">Вс</system:String>
+    <system:String x:Key="DayMon">Пн</system:String>
+    <system:String x:Key="DayTue">Вт</system:String>
+    <system:String x:Key="DayWed">Ср</system:String>
+    <system:String x:Key="DayThu">Чт</system:String>
+    <system:String x:Key="DayFri">Пт</system:String>
+    <system:String x:Key="DaySat">Сб</system:String>
+
+    <!-- Connection Types -->
+    <system:String x:Key="WiFi">Wi-Fi</system:String>
+    <system:String x:Key="Ethernet">Ethernet</system:String>
+    <system:String x:Key="VPN">VPN</system:String>
+    <system:String x:Key="Network">Сеть</system:String>
+
+    <!-- Toast Notifications -->
+    <system:String x:Key="Toast_TrafficLimitReached">⚠️ Дневной лимит трафика превышен!\nИспользовано: {0} / Лимит: {1}</system:String>
+    <system:String x:Key="Toast_SettingsSaved">Настройки успешно сохранены!</system:String>
+    <system:String x:Key="Toast_NetworkConnected">Сетевое подключение установлено</system:String>
+    <system:String x:Key="Toast_NetworkDisconnected">Сетевое подключение потеряно</system:String>
+    <system:String x:Key="Toast_ConnectionChanged">Подключение изменено на {0}</system:String>
+    <system:String x:Key="Toast_UpdateAvailable">Доступна новая версия {0}!</system:String>
+    <system:String x:Key="Toast_ErrorOccurred">Произошла ошибка: {0}</system:String>
+    <system:String x:Key="Toast_Close">Закрыть</system:String>
+
+    <!-- ============================================ -->
+    <!-- PROCESS NETWORK WINDOW                       -->
+    <!-- ============================================ -->
+    <system:String x:Key="ProcessNetwork_Title">Сетевой трафик процессов</system:String>
+    <system:String x:Key="ProcessNetwork_Monitoring">Мониторинг активных подключений...</system:String>
+    <system:String x:Key="ProcessNetwork_LIVE">В ПРЯМОМ ЭФИРЕ</system:String>
+    <system:String x:Key="ProcessNetwork_Process">Процесс</system:String>
+    <system:String x:Key="ProcessNetwork_Upload">Отправка</system:String>
+    <system:String x:Key="ProcessNetwork_Download">Загрузка</system:String>
+    <system:String x:Key="ProcessNetwork_Total">Всего</system:String>
+    <system:String x:Key="ProcessNetwork_Speed">Скорость</system:String>
+    <system:String x:Key="ProcessNetwork_Name">Название</system:String>
+    <system:String x:Key="ProcessNetwork_SortBy">Сортировать по:</system:String>
+    <system:String x:Key="ProcessNetwork_SortBySpeed">Сортировать по скорости</system:String>
+    <system:String x:Key="ProcessNetwork_SortByTotal">Сортировать по общему трафику</system:String>
+    <system:String x:Key="ProcessNetwork_SortByName">Сортировать по имени</system:String>
+    <system:String x:Key="ProcessNetwork_Processes">процессов</system:String>
+    <system:String x:Key="ProcessNetwork_Active">активно</system:String>
+
+    <!-- Common -->
+    <system:String x:Key="Common_Close">Закрыть</system:String>
+    <system:String x:Key="Common_OK">ОК</system:String>
+    <system:String x:Key="Common_Cancel">Отмена</system:String>
+    <system:String x:Key="Common_Save">Сохранить</system:String>
+    <system:String x:Key="Common_Apply">Применить</system:String>
+    <system:String x:Key="Common_Refresh">Обновить</system:String>
+
+    <!-- ============================================ -->
+    <!-- SPEED TEST WINDOW                            -->
+    <!-- ============================================ -->
+    <system:String x:Key="SpeedTest_Title">Тест скорости Интернета</system:String>
+    <system:String x:Key="SpeedTest_PoweredBy">Работает на Cloudflare</system:String>
+    <system:String x:Key="SpeedTest_Ready">Готов к тестированию подключения</system:String>
+    <system:String x:Key="SpeedTest_TapToStart">НАЖМИТЕ ДЛЯ ЗАПУСКА</system:String>
+    <system:String x:Key="SpeedTest_StartTest">Запустить тест</system:String>
+    <system:String x:Key="SpeedTest_Ping">ПИНГ</system:String>
+    <system:String x:Key="SpeedTest_Download">ЗАГРУЗКА</system:String>
+    <system:String x:Key="SpeedTest_Upload">ОТПРАВКА</system:String>
+    <system:String x:Key="SpeedTest_Jitter">Джиттер</system:String>
+    <system:String x:Key="SpeedTest_PacketLoss">Потеря пакетов</system:String>
+    <system:String x:Key="SpeedTest_ConnectionDetails">Детали подключения</system:String>
+    <system:String x:Key="SpeedTest_PublicIP">ПУБЛИЧНЫЙ IP</system:String>
+    <system:String x:Key="SpeedTest_LocalIP">ЛОКАЛЬНЫЙ IP</system:String>
+    <system:String x:Key="SpeedTest_ConnectionType">ТИП ПОДКЛЮЧЕНИЯ</system:String>
+    <system:String x:Key="SpeedTest_ISP">ПРОВАЙДЕР</system:String>
+    <system:String x:Key="SpeedTest_Server">СЕРВЕР</system:String>
+    <system:String x:Key="SpeedTest_Location">РАСПОЛОЖЕНИЕ</system:String>
+    <system:String x:Key="SpeedTest_TestedOn">Тест выполнен:</system:String>
+    <system:String x:Key="SpeedTest_ConnectionRating">Оценка подключения</system:String>
+    <system:String x:Key="SpeedTest_Gaming">Игры</system:String>
+    <system:String x:Key="SpeedTest_Streaming">Стриминг</system:String>
+    <system:String x:Key="SpeedTest_VideoCall">Видеозвонки</system:String>
+    <system:String x:Key="SpeedTest_Browsing">Сёрфинг</system:String>
+
+    <!-- ============================================ -->
+    <!-- NETWORK INFO WINDOW                          -->
+    <!-- ============================================ -->
+    <system:String x:Key="ConnectionDetails_Title">Детали подключения</system:String>
+    <system:String x:Key="ConnectionDetails_Subtitle">Информация о сетевых подключениях</system:String>
+    <system:String x:Key="ConnectionDetails_Description">Описание</system:String>
+    <system:String x:Key="ConnectionDetails_IPAddress">IP-адрес</system:String>
+    <system:String x:Key="ConnectionDetails_SubnetMask">Маска подсети</system:String>
+    <system:String x:Key="ConnectionDetails_DefaultGateway">Основной шлюз</system:String>
+    <system:String x:Key="ConnectionDetails_DNSServers">DNS-серверы</system:String>
+    <system:String x:Key="ConnectionDetails_MACAddress">MAC-адрес</system:String>
+    <system:String x:Key="ConnectionDetails_LinkSpeed">Скорость соединения</system:String>
+    <system:String x:Key="ConnectionDetails_BytesReceived">Получено байт</system:String>
+    <system:String x:Key="ConnectionDetails_BytesSent">Отправлено байт</system:String>
+    <system:String x:Key="ConnectionDetails_ConnectionType">Тип подключения</system:String>
+    <system:String x:Key="ConnectionDetails_StatusActive">Активно</system:String>
+    <system:String x:Key="ConnectionDetails_StatusInactive">Неактивно</system:String>
+
+    <!-- ============================================ -->
+    <!-- HISTORY WINDOW                               -->
+    <!-- ============================================ -->
+    <system:String x:Key="History_WindowTitle">История трафика</system:String>
+    <system:String x:Key="History_ListView">Список</system:String>
+    <system:String x:Key="History_CalendarView">Календарь</system:String>
+    <system:String x:Key="History_ViewType">Тип просмотра:</system:String>
+    <system:String x:Key="History_DayView">По дням</system:String>
+    <system:String x:Key="History_MonthView">По месяцам</system:String>
+    <system:String x:Key="History_YearView">По годам</system:String>
+    <system:String x:Key="History_FigureViewScale">Масштаб отображения:</system:String>
+    <system:String x:Key="History_LinearScale">Линейный</system:String>
+    <system:String x:Key="History_LogarithmicScale">Логарифмический</system:String>
+    <system:String x:Key="History_DateColumn">Дата</system:String>
+    <system:String x:Key="History_UploadColumn">Отправка</system:String>
+    <system:String x:Key="History_DownloadColumn">Загрузка</system:String>
+    <system:String x:Key="History_TotalTrafficColumn">Всего трафика</system:String>
+    <system:String x:Key="History_FigureColumn">График</system:String>
+    <system:String x:Key="History_Legend">Легенда:</system:String>
+    <system:String x:Key="History_MonthTotalTraffic">Трафик за текущий месяц:</system:String>
+    <system:String x:Key="History_Legend_0_1GB">0 ~ 1 ГБ</system:String>
+    <system:String x:Key="History_Legend_1_10GB">1 ~ 10 ГБ</system:String>
+    <system:String x:Key="History_Legend_10_100GB">10 ~ 100 ГБ</system:String>
+    <system:String x:Key="History_Legend_100GB_1TB">100 ГБ ~ 1 ТБ</system:String>
+    <system:String x:Key="History_Legend_1TBplus">1 ТБ +</system:String>
+
+    <!-- ============================================ -->
+    <!-- ABOUT WINDOW                                 -->
+    <!-- ============================================ -->
+    <system:String x:Key="About_WindowTitle">О программе</system:String>
+    <system:String x:Key="About_VersionLabel">Версия 1.0.0</system:String>
+    <system:String x:Key="About_Description">Простой инструмент для мониторинга сетевого трафика</system:String>
+    <system:String x:Key="About_MadeWithLove_Part1">Сделано с</system:String>
+    <system:String x:Key="About_MadeWithLove_Part2">От</system:String>
+    <system:String x:Key="About_DeveloperName">Тарек Садек</system:String>
+    <system:String x:Key="About_LeadDeveloper">Ведущий разработчик</system:String>
+    <system:String x:Key="About_Website">Веб-сайт</system:String>
+    <system:String x:Key="About_Donate">Пожертвовать</system:String>
+    <system:String x:Key="About_Email">Email</system:String>
+    <system:String x:Key="About_AllRightsReserved">Все права защищены</system:String>
+    <system:String x:Key="About_StatusActive">Активно</system:String>
+    <system:String x:Key="About_OK">ОК</system:String>
+
+    <!-- ============================================ -->
+    <!-- TASKBAR WINDOW                               -->
+    <!-- ============================================ -->
+    <system:String x:Key="Taskbar_UploadArrow">&#x2191;</system:String>
+    <system:String x:Key="Taskbar_DownloadArrow">&#x2193;</system:String>
+    <system:String x:Key="Taskbar_Separator">:</system:String>
+
+    <!-- ============================================ -->
+    <!-- OPTIONS WINDOW - ADDITIONAL                  -->
+    <!-- ============================================ -->
+    <system:String x:Key="Options_MainWindowSettings">Главное окно</system:String>
+    <system:String x:Key="Options_TaskbarWindowSettings">Панель задач</system:String>
+    <system:String x:Key="Options_GeneralSettings">Основные</system:String>
+    <system:String x:Key="Options_ColorAndFont">Цвет и шрифт</system:String>
+    <system:String x:Key="Options_Font">Шрифт:</system:String>
+    <system:String x:Key="Options_ChooseFont">Выбрать шрифт...</system:String>
+    <system:String x:Key="Options_RestoreDefault">Восстановить по умолчанию</system:String>
+    <system:String x:Key="Options_TextColor">Цвет текста:</system:String>
+    <system:String x:Key="Options_BackgroundColor">Цвет фона:</system:String>
+    <system:String x:Key="Options_BackgroundTransparent">Прозрачный фон</system:String>
+    <system:String x:Key="Options_DisplayText">Отображение текста</system:String>
+    <system:String x:Key="Options_SwapUpDown">Поменять отправку и загрузку</system:String>
+    <system:String x:Key="Options_SpeedShortMode">Короткий режим скорости</system:String>
+    <system:String x:Key="Options_SeparateValueUnit">Разделять значение и единицу пробелом</system:String>
+    <system:String x:Key="Options_ShowToolTip">Показывать подсказку</system:String>
+    <system:String x:Key="Options_NetSpeedUnit">Единица скорости</system:String>
+    <system:String x:Key="Options_NetspeedUnit">Единица скорости:</system:String>
+    <system:String x:Key="Options_UnitByte">Байт (KB/s, MB/s)</system:String>
+    <system:String x:Key="Options_UnitBit">Бит (Kbps, Mbps)</system:String>
+    <system:String x:Key="Options_UnitSelection">Выбор единицы:</system:String>
+    <system:String x:Key="Options_WindowBehavior">Поведение окна</system:String>
+    <system:String x:Key="Options_AlwaysOnTop">Поверх всех окон</system:String>
+    <system:String x:Key="Options_LockWindowPos">Заблокировать положение</system:String>
+    <system:String x:Key="Options_HideMainWindowFullscreen">Скрывать в полноэкранном режиме</system:String>
+    <system:String x:Key="Options_MousePenetrate">Проникновение мыши</system:String>
+    <system:String x:Key="Options_DoubleClickAction">Действие двойного щелчка:</system:String>
+    <system:String x:Key="Options_OpenConnectionDetails">Открыть детали подключения</system:String>
+    <system:String x:Key="Options_OpenHistoricalTraffic">Открыть историю трафика</system:String>
+    <system:String x:Key="Options_OpenOptions">Открыть настройки</system:String>
+    <system:String x:Key="Options_OpenTaskManager">Открыть диспетчер задач</system:String>
+    <system:String x:Key="Options_DoNothing">Ничего не делать</system:String>
+    <system:String x:Key="Options_Opacity">Прозрачность</system:String>
+    <system:String x:Key="Options_TaskbarPosition">Положение</system:String>
+    <system:String x:Key="Options_ShowTaskbarWindow">Показать окно</system:String>
+    <system:String x:Key="Options_TaskbarWindowOnLeft">Окно слева</system:String>
+    <system:String x:Key="Options_HorizontalOffset">Горизонтальное смещение</system:String>
+    <system:String x:Key="Options_VerticalOffset">Вертикальное смещение</system:String>
+    <system:String x:Key="Options_TaskbarDisplay">Отображение</system:String>
+    <system:String x:Key="Options_ShowArrows">Показывать стрелки</system:String>
+    <system:String x:Key="Options_DigitsNumber">Количество цифр</system:String>
+    <system:String x:Key="Options_Characters">Знаков</system:String>
+    <system:String x:Key="Options_Appearance">Внешний вид</system:String>
+    <system:String x:Key="Options_Theme">Тема</system:String>
+    <system:String x:Key="Options_ThemeLight">Светлая</system:String>
+    <system:String x:Key="Options_ThemeDark">Тёмная</system:String>
+    <system:String x:Key="Options_ThemeAuto">Авто (Система)</system:String>
+    <system:String x:Key="Options_Language">Язык</system:String>
+    <system:String x:Key="Options_Startup">Запуск</system:String>
+    <system:String x:Key="Options_StartWithWindows">Запускать с Windows</system:String>
+    <system:String x:Key="Options_StartMinimized">Запускать свёрнутым</system:String>
+    <system:String x:Key="Options_ShowTrayIcon">Показывать значок</system:String>
+    <system:String x:Key="Options_HardwareAcceleration">Аппаратное ускорение</system:String>
+    <system:String x:Key="Options_Monitoring">Мониторинг</system:String>
+    <system:String x:Key="Options_UpdateInterval">Интервал обновления</system:String>
+    <system:String x:Key="Options_AutoSelect">Автовыбор активного подключения</system:String>
+    <system:String x:Key="Options_SelectNetworkConnections">Выбор подключений</system:String>
+    <system:String x:Key="Options_Notification">Уведомления</system:String>
+    <system:String x:Key="Options_NotifyTrafficReached">Уведомлять о дневном лимите</system:String>
+    <system:String x:Key="Options_AutoUnit">Авто (Динамически)</system:String>
+    <system:String x:Key="Options_Save">Сохранить</system:String>
+    <system:String x:Key="Options_Cancel">Отмена</system:String>
+
+    <!-- ============================================ -->
+    <!-- MAIN WINDOW                                  -->
+    <!-- ============================================ -->
+    <system:String x:Key="MainWindow_Title">Монитор трафика</system:String>
+    <system:String x:Key="MainWindow_UploadLabel">Отправка:</system:String>
+    <system:String x:Key="MainWindow_DownloadLabel">Загрузка:</system:String>
+    <system:String x:Key="MainWindow_TodayLabel">Сегодня:</system:String>
+    <system:String x:Key="MainWindow_Menu">Меню</system:String>
+    <system:String x:Key="MainWindow_Close">Закрыть</system:String>
+
+    <!-- ============================================ -->
+    <!-- CONTEXT MENU                                 -->
+    <!-- ============================================ -->
+    <system:String x:Key="Menu_SelectNetworkConnections">Выбор подключений</system:String>
+    <system:String x:Key="Menu_AutoSelect">Автовыбор</system:String>
+    <system:String x:Key="Menu_ConnectionDetails">Детали подключения</system:String>
+    <system:String x:Key="Menu_HistoricalTraffic">История трафика</system:String>
+    <system:String x:Key="Menu_ProcessNetworkUsage">Трафик процессов</system:String>
+    <system:String x:Key="Menu_SpeedTest">Тест скорости</system:String>
+    <system:String x:Key="Menu_Options">Настройки...</system:String>
+    <system:String x:Key="Menu_ShowMainWindow">Показать главное окно</system:String>
+    <system:String x:Key="Menu_HideMainWindow">Скрыть главное окно</system:String>
+    <system:String x:Key="Menu_ShowTaskbarWindow">Показать окно панели задач</system:String>
+    <system:String x:Key="Menu_CloseTaskbarWindow">Закрыть окно панели задач</system:String>
+    <system:String x:Key="Menu_TaskManager">Диспетчер задач</system:String>
+    <system:String x:Key="Menu_Help">Помощь</system:String>
+    <system:String x:Key="Menu_About">О программе...</system:String>
+    <system:String x:Key="Menu_Exit">Выход</system:String>
+
+    <!-- ============================================ -->
+    <!-- COMMON                                       -->
+    <!-- ============================================ -->
+    <system:String x:Key="Common_Error">Ошибка</system:String>
+    <system:String x:Key="Common_Success">Успешно</system:String>
+    <system:String x:Key="Common_Warning">Предупреждение</system:String>
+    <system:String x:Key="Common_Info">Информация</system:String>
+    <system:String x:Key="Common_Today">Сегодня</system:String>
+    <system:String x:Key="Common_Yesterday">Вчера</system:String>
+
+    <!-- Tray & Taskbar -->
+    <system:String x:Key="Tray_DefaultTooltip">Монитор трафика</system:String>
+    <system:String x:Key="Tray_LimitTooltip">⚠️ Монитор трафика - Дневной лимит превышен!</system:String>
+    <system:String x:Key="Tray_SpeedTooltip">↑ {0}\n↓ {1}</system:String>
+    <system:String x:Key="Taskbar_Tooltip">↑ {0}\n↓ {1}\nСегодня: {2}</system:String>
+
+    <!-- Process Network -->
+    <system:String x:Key="ProcessNetwork_StatusFormat">{0} процессов ({1} активных)</system:String>
+    <system:String x:Key="ProcessNetwork_LastUpdated">Последнее обновление: {0}</system:String>
+
+    <!-- Speed Test -->
+    <system:String x:Key="SpeedTest_GaugeReady">ГОТОВ</system:String>
+    <system:String x:Key="SpeedTest_CancelBtn">Отмена</system:String>
+    <system:String x:Key="SpeedTest_Preparing">ПОДГОТОВКА</system:String>
+    <system:String x:Key="SpeedTest_Testing">ТЕСТИРОВАНИЕ...</system:String>
+    <system:String x:Key="SpeedTest_GaugeComplete">ЗАВЕРШЕНО</system:String>
+    <system:String x:Key="SpeedTest_Cancelled">Тест отменён.</system:String>
+    <system:String x:Key="SpeedTest_ErrorPrefix">Ошибка: {0}</system:String>
+    <system:String x:Key="SpeedTest_FinalStatus">✓ Тест завершён! ↓{0:F1} / ↑{1:F1} Мбит/с</system:String>
+    <system:String x:Key="SpeedTest_FindingServer">Поиск лучшего сервера...</system:String>
+    <system:String x:Key="SpeedTest_GettingNetworkInfo">Получение информации о сети...</system:String>
+    <system:String x:Key="SpeedTest_TestingLatency">Тестирование задержки...</system:String>
+    <system:String x:Key="SpeedTest_TestingPacketLoss">Тестирование потери пакетов...</system:String>
+    <system:String x:Key="SpeedTest_TestingDownload">Тестирование скорости загрузки...</system:String>
+    <system:String x:Key="SpeedTest_TestingUpload">Тестирование скорости отправки...</system:String>
+    <system:String x:Key="SpeedTest_Complete">Тест завершён!</system:String>
+    <system:String x:Key="SpeedTest_GetReadyDownload">Приготовьтесь к тесту загрузки</system:String>
+    <system:String x:Key="SpeedTest_GetReadyUpload">Приготовьтесь к тесту отправки</system:String>
+    <system:String x:Key="SpeedTest_UnitMs">мс</system:String>
+    <system:String x:Key="SpeedTest_UnitMbps">Мбит/с</system:String>
+
+    <!-- Ratings -->
+    <system:String x:Key="Rating_FactorPing">Пинг</system:String>
+    <system:String x:Key="Rating_FactorJitter">Джиттер</system:String>
+    <system:String x:Key="Rating_FactorPacketLoss">Потеря пакетов</system:String>
+    <system:String x:Key="Rating_StatusExcellent">✓ Отлично</system:String>
+    <system:String x:Key="Rating_StatusGood">✓ Хорошо</system:String>
+    <system:String x:Key="Rating_StatusHigh">⚠ Высокий</system:String>
+    <system:String x:Key="Rating_StatusStable">✓ Стабильно</system:String>
+    <system:String x:Key="Rating_StatusUnstable">⚠ Нестабильно</system:String>
+    <system:String x:Key="Rating_StatusPerfect">✓ Идеально</system:String>
+    <system:String x:Key="Rating_StatusLossy">⚠ С потерями</system:String>
+    <system:String x:Key="Rating_Excellent">Отлично</system:String>
+    <system:String x:Key="Rating_Good">Хорошо</system:String>
+    <system:String x:Key="Rating_Fair">Средне</system:String>
+    <system:String x:Key="Rating_Poor">Плохо</system:String>
+    <system:String x:Key="Rating_GamingTitle">Игры</system:String>
+    <system:String x:Key="Rating_GamingSummary">Подходит для {0} игр.</system:String>
+    <system:String x:Key="Rating_GamingPerfect">Идеально для соревновательных игр!</system:String>
+    <system:String x:Key="Rating_GamingHighPing">Высокий пинг может вызывать задержки. Попробуйте проводное подключение.</system:String>
+    <system:String x:Key="Rating_GamingUnstable">Нестабильное подключение. Проверьте помехи Wi-Fi.</system:String>
+    <system:String x:Key="Rating_GamingLossy">Обнаружена потеря пакетов. Обратитесь к провайдеру.</system:String>
+    <system:String x:Key="Rating_StreamingTitle">Стриминг</system:String>
+    <system:String x:Key="Rating_StreamingSummary">Качество стриминга: {0}.</system:String>
+    <system:String x:Key="Rating_StreamingUpgrade">Рекомендуется улучшить подключение для HD.</system:String>
+    <system:String x:Key="Rating_StreamingGood">Хорошо для стриминга!</system:String>
+    <system:String x:Key="Rating_VideoCallTitle">Видеозвонки</system:String>
+    <system:String x:Key="Rating_VideoCallSummary">{0} для видеоконференций.</system:String>
+    <system:String x:Key="Rating_VideoCallLowUpload">Низкая скорость отправки может влиять на качество видео.</system:String>
+    <system:String x:Key="Rating_VideoCallGood">Хорошо для звонков!</system:String>
+    <system:String x:Key="Rating_BrowsingTitle">Сёрфинг</system:String>
+    <system:String x:Key="Rating_BrowsingSummary">Качество сёрфинга: {0}.</system:String>
+    <system:String x:Key="Rating_BrowsingSlow">Страницы могут загружаться медленно.</system:String>
+    <system:String x:Key="Rating_BrowsingSmooth">Плавный сёрфинг!</system:String>
+    <system:String x:Key="Rating_4KReady">Готов к 4K</system:String>
+    <system:String x:Key="Rating_1080pHD">1080p HD</system:String>
+    <system:String x:Key="Rating_720pHD">720p HD</system:String>
+    <system:String x:Key="Rating_SDOnly">Только SD</system:String>
+    <system:String x:Key="Rating_TooSlow">Слишком медленно</system:String>
+    <system:String x:Key="Rating_HDReady">Готов к HD</system:String>
+    <system:String x:Key="Rating_SDReady">Готов к SD</system:String>
+    <system:String x:Key="Rating_Fast">Быстро</system:String>
+    <system:String x:Key="Rating_VerySlow">Очень медленно</system:String>
+
+    <!-- History -->
+    <system:String x:Key="History_CellTooltip">Дата: {0}\nВсего: {1}</system:String>
+
+    <!-- About -->
+    <system:String x:Key="About_FallbackMessage">О программе Монитор трафика\nВерсия 1.0\n\nИнструмент для мониторинга сетевого трафика</system:String>
+    <system:String x:Key="About_LinkError">Не удалось открыть ссылку: {0}</system:String>
+
+    <!-- Connection Types -->
+    <system:String x:Key="ConnType_WiFi">Wi-Fi</system:String>
+    <system:String x:Key="ConnType_Ethernet">Ethernet</system:String>
+    <system:String x:Key="ConnType_VPN">VPN</system:String>
+    <system:String x:Key="ConnType_Network">Сеть</system:String>
+
+    <!-- Common -->
+    <system:String x:Key="Common_NA">Н/Д</system:String>
+    <system:String x:Key="Common_Unknown">Неизвестно</system:String>
+
+    <system:String x:Key="Rating_Slow">Медленно</system:String>
+    <system:String x:Key="Rating_GamingCompetitive">соревновательных</system:String>
+    <system:String x:Key="Rating_GamingCasual">казуальных</system:String>
+    <system:String x:Key="Rating_GamingSinglePlayer">одиночных</system:String>
+    <system:String x:Key="Rating_Perfect">Идеально</system:String>
+
+</ResourceDictionary>

@@ -1,0 +1,612 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <!-- ════════════════════════════════════════════════ -->
+    <!-- FRENCH (FR) — Français                          -->
+    <!-- ════════════════════════════════════════════════ -->
+
+    <!-- Language Name -->
+    <system:String x:Key="LanguageName">French</system:String>
+    <system:String x:Key="LanguageNativeName">Français</system:String>
+
+    <!-- ▓▓▓ App & General ▓▓▓ -->
+    <system:String x:Key="AppName">Moniteur de Trafic</system:String>
+    <system:String x:Key="AppSubtitle">Moniteur de Vitesse Réseau</system:String>
+    <system:String x:Key="OK">OK</system:String>
+    <system:String x:Key="Cancel">Annuler</system:String>
+    <system:String x:Key="Apply">Appliquer</system:String>
+    <system:String x:Key="Close">Fermer</system:String>
+    <system:String x:Key="Save">Enregistrer</system:String>
+    <system:String x:Key="Reset">Réinitialiser</system:String>
+    <system:String x:Key="Yes">Oui</system:String>
+    <system:String x:Key="No">Non</system:String>
+    <system:String x:Key="Error">Erreur</system:String>
+    <system:String x:Key="Success">Succès</system:String>
+    <system:String x:Key="Warning">Avertissement</system:String>
+    <system:String x:Key="Info">Information</system:String>
+    <system:String x:Key="Refresh">Actualiser</system:String>
+    <system:String x:Key="Browse">Parcourir...</system:String>
+    <system:String x:Key="Today">Aujourd'hui</system:String>
+    <system:String x:Key="Yesterday">Hier</system:String>
+
+    <!-- ▓▓▓ Main Window ▓▓▓ -->
+    <system:String x:Key="MainWindowTitle">Moniteur de Trafic</system:String>
+    <system:String x:Key="UploadLabel">Envoi:</system:String>
+    <system:String x:Key="DownloadLabel">Téléchargement:</system:String>
+    <system:String x:Key="TodayLabel">Aujourd'hui:</system:String>
+    <system:String x:Key="ConnectionLabel">Connexion:</system:String>
+    <system:String x:Key="Menu">Menu</system:String>
+
+    <!-- ▓▓▓ Tray Menu ▓▓▓ -->
+    <system:String x:Key="SelectNetworkConnections">Sélectionner les connexions réseau</system:String>
+    <system:String x:Key="AutoSelect">Sélection auto</system:String>
+    <system:String x:Key="ConnectionDetails">Détails de connexion</system:String>
+    <system:String x:Key="HistoricalTraffic">Statistiques historiques</system:String>
+    <system:String x:Key="DisplaySettings">Paramètres d'affichage...</system:String>
+    <system:String x:Key="ShowMainWindow">Afficher la fenêtre principale</system:String>
+    <system:String x:Key="HideMainWindow">Masquer la fenêtre principale</system:String>
+    <system:String x:Key="ShowTaskbarWindow">Afficher la fenêtre de la barre des tâches</system:String>
+    <system:String x:Key="CloseTaskbarWindow">Fermer la fenêtre de la barre des tâches</system:String>
+    <system:String x:Key="TaskManager">Gestionnaire des tâches</system:String>
+    <system:String x:Key="Options">Options...</system:String>
+    <system:String x:Key="AppSettings">Paramètres de l'application...</system:String>
+    <system:String x:Key="Help">Aide</system:String>
+    <system:String x:Key="About">À propos...</system:String>
+    <system:String x:Key="Exit">Quitter</system:String>
+
+    <!-- ▓▓▓ Options Window ▓▓▓ -->
+    <system:String x:Key="OptionSettings">Paramètres d'options</system:String>
+    <system:String x:Key="MainWindowSettings">Paramètres de la fenêtre principale</system:String>
+    <system:String x:Key="TaskbarWindowSettings">Paramètres de la fenêtre de la barre des tâches</system:String>
+    <system:String x:Key="GeneralSettingsTab">Paramètres généraux</system:String>
+
+    <system:String x:Key="ColorAndFont">Couleur et police</system:String>
+    <system:String x:Key="Font">Police:</system:String>
+    <system:String x:Key="ChooseFont">Choisir la police...</system:String>
+    <system:String x:Key="FontSize">Taille de police:</system:String>
+    <system:String x:Key="RestoreDefault">Restaurer par défaut</system:String>
+    <system:String x:Key="TextColor">Couleur du texte:</system:String>
+    <system:String x:Key="BackgroundColor">Couleur d'arrière-plan:</system:String>
+    <system:String x:Key="BackgroundTransparent">Arrière-plan transparent</system:String>
+
+    <system:String x:Key="DisplayText">Texte d'affichage</system:String>
+    <system:String x:Key="SwapUpDown">Échanger la position de l'envoi et du téléchargement</system:String>
+    <system:String x:Key="SpeedShortMode">Mode court pour l'affichage de la vitesse</system:String>
+    <system:String x:Key="SeparateValueUnit">Séparer la valeur et l'unité par un espace</system:String>
+    <system:String x:Key="ShowToolTip">Afficher l'infobulle de la souris</system:String>
+
+    <system:String x:Key="WindowBehavior">Comportement de la fenêtre</system:String>
+    <system:String x:Key="AlwaysOnTop">Toujours au premier plan</system:String>
+    <system:String x:Key="LockWindowPos">Verrouiller la position de la fenêtre</system:String>
+    <system:String x:Key="HideMainWindowFullscreen">Masquer la fenêtre principale en mode plein écran</system:String>
+    <system:String x:Key="DoubleClickAction">Action double-clic:</system:String>
+    <system:String x:Key="OpenConnectionDetails">Ouvrir les détails de connexion</system:String>
+    <system:String x:Key="OpenHistoricalTraffic">Ouvrir les statistiques historiques</system:String>
+    <system:String x:Key="OpenOptions">Ouvrir les options</system:String>
+    <system:String x:Key="OpenTaskManagerAction">Ouvrir le gestionnaire des tâches</system:String>
+    <system:String x:Key="DoNothing">Ne rien faire</system:String>
+
+    <system:String x:Key="UnitSettings">Paramètres d'unité</system:String>
+    <system:String x:Key="NetSpeedUnit">Unité de vitesse réseau</system:String>
+    <system:String x:Key="NetspeedUnit">Unité de vitesse:</system:String>
+    <system:String x:Key="UnitByteLabel">B (Octet)</system:String>
+    <system:String x:Key="UnitByte">Octet (KB/s, MB/s)</system:String>
+    <system:String x:Key="UnitBitLabel">b (bit)</system:String>
+    <system:String x:Key="UnitBit">Bit (Kbps, Mbps)</system:String>
+    <system:String x:Key="UnitSelection">Sélection d'unité:</system:String>
+    <system:String x:Key="UnitAuto">Auto</system:String>
+    <system:String x:Key="AutoUnit">Auto (Dynamique)</system:String>
+    <system:String x:Key="UnitKB">KB/s</system:String>
+    <system:String x:Key="UnitMB">MB/s</system:String>
+    <system:String x:Key="HideUnitLabel">Ne pas afficher l'unité de vitesse</system:String>
+
+    <!-- Taskbar tab -->
+    <system:String x:Key="TaskbarDisplaySettings">Paramètres d'affichage</system:String>
+    <system:String x:Key="AlignValuesRight">Aligner les valeurs à droite</system:String>
+    <system:String x:Key="NetSpeedDataWidth">Largeur des données de vitesse:</system:String>
+    <system:String x:Key="HorizontalArrange">Disposition horizontale</system:String>
+    <system:String x:Key="ItemSpacing">Espacement des éléments:</system:String>
+    <system:String x:Key="VerticalMargin">Marge verticale:</system:String>
+    <system:String x:Key="TaskbarWindowPosition">Position de la fenêtre de la barre des tâches</system:String>
+    <system:String x:Key="TaskbarOnLeft">Fenêtre de la barre des tâches à gauche</system:String>
+    <system:String x:Key="TaskbarWindowOnLeft">Fenêtre de la barre des tâches à gauche</system:String>
+    <system:String x:Key="DigitsNumber">Nombre de chiffres</system:String>
+    <system:String x:Key="Characters">Caractères</system:String>
+
+    <system:String x:Key="NetSpeedGraph">Graphique de vitesse réseau</system:String>
+    <system:String x:Key="ShowNetSpeedGraph">Afficher le graphique de vitesse</system:String>
+    <system:String x:Key="MaxValue">Valeur max:</system:String>
+    <system:String x:Key="GraphColor">Couleur du graphique:</system:String>
+    <system:String x:Key="BarMode">Mode barres</system:String>
+    <system:String x:Key="PlotMode">Mode tracé</system:String>
+
+    <!-- General tab -->
+    <system:String x:Key="ApplicationSettings">Paramètres de l'application</system:String>
+    <system:String x:Key="CheckUpdateAtStart">Vérifier les mises à jour au démarrage</system:String>
+    <system:String x:Key="CheckNow">Vérifier maintenant</system:String>
+    <system:String x:Key="AutoRun">Démarrage automatique avec Windows</system:String>
+    <system:String x:Key="ApplyAutorun">Appliquer le démarrage auto</system:String>
+    <system:String x:Key="LanguageLabel">Langue:</system:String>
+    <system:String x:Key="FollowingSystem">Suivre le système</system:String>
+    <system:String x:Key="ShowNotifyIcon">Afficher l'icône de notification</system:String>
+
+    <system:String x:Key="TrafficNotifications">Notifications de trafic</system:String>
+    <system:String x:Key="NotifyTrafficReached">Notifier quand la limite quotidienne est atteinte</system:String>
+    <system:String x:Key="LimitLabel">Limite:</system:String>
+    <system:String x:Key="NotificationMessage">Notifications et messages</system:String>
+
+    <system:String x:Key="NetworkConnection">Connexion réseau</system:String>
+    <system:String x:Key="ShowAllConnections">Afficher toutes les connexions</system:String>
+    <system:String x:Key="AutoSelectActive">Sélection auto de la connexion active</system:String>
+    <system:String x:Key="SelectConnectionToMonitor">Sélectionner la connexion à surveiller...</system:String>
+    <system:String x:Key="MonitoringInterval">Intervalle de surveillance:</system:String>
+    <system:String x:Key="Milliseconds">millisecondes</system:String>
+
+    <!-- ▓▓▓ History Window ▓▓▓ -->
+    <system:String x:Key="HistoryTitle">Statistiques historiques du trafic</system:String>
+    <system:String x:Key="ListView">Vue liste</system:String>
+    <system:String x:Key="CalendarView">Vue calendrier</system:String>
+    <system:String x:Key="ViewType">Type de vue:</system:String>
+    <system:String x:Key="DayView">Vue jour</system:String>
+    <system:String x:Key="MonthView">Vue mois</system:String>
+    <system:String x:Key="YearView">Vue année</system:String>
+    <system:String x:Key="FigureViewScale">Échelle de la figure:</system:String>
+    <system:String x:Key="LinearScale">Échelle linéaire</system:String>
+    <system:String x:Key="LogarithmicScale">Échelle logarithmique</system:String>
+    <system:String x:Key="DateColumn">Date</system:String>
+    <system:String x:Key="UploadColumn">Envoi</system:String>
+    <system:String x:Key="DownloadColumn">Téléchargement</system:String>
+    <system:String x:Key="TotalTrafficColumn">Trafic total</system:String>
+    <system:String x:Key="FigureColumn">Figure</system:String>
+    <system:String x:Key="Year">Année:</system:String>
+    <system:String x:Key="Month">Mois:</system:String>
+    <system:String x:Key="Legend">Légende:</system:String>
+    <system:String x:Key="MonthTotalTraffic">Trafic total du mois en cours:</system:String>
+
+    <!-- ▓▓▓ Network Info Window ▓▓▓ -->
+    <system:String x:Key="SubnetMask">Masque de sous-réseau</system:String>
+    <system:String x:Key="DefaultGateway">Passerelle par défaut</system:String>
+    <system:String x:Key="DnsServers">Serveurs DNS</system:String>
+    <system:String x:Key="LinkSpeed">Vitesse de liaison</system:String>
+    <system:String x:Key="BytesReceived">Octets reçus</system:String>
+    <system:String x:Key="BytesSent">Octets envoyés</system:String>
+    <system:String x:Key="ConnectionType">Type de connexion</system:String>
+    <system:String x:Key="NetworkInfoTitle">Détails de connexion</system:String>
+    <system:String x:Key="NetworkConnectionInfo">Informations de connexion réseau</system:String>
+    <system:String x:Key="PropertyColumn">Propriété</system:String>
+    <system:String x:Key="ValueColumn">Valeur</system:String>
+    <system:String x:Key="PropName">Nom</system:String>
+    <system:String x:Key="PropDescription">Description</system:String>
+    <system:String x:Key="PropIpAddress">Adresse IP</system:String>
+    <system:String x:Key="PropMacAddress">Adresse MAC</system:String>
+    <system:String x:Key="PropSpeed">Vitesse</system:String>
+    <system:String x:Key="PropStatus">Statut</system:String>
+    <system:String x:Key="StatusActive">Actif</system:String>
+    <system:String x:Key="StatusInactive">Inactif</system:String>
+
+    <!-- ▓▓▓ About Window ▓▓▓ -->
+    <system:String x:Key="AboutTitle">À propos</system:String>
+    <system:String x:Key="VersionLabel">Version 1.0.0</system:String>
+    <system:String x:Key="AboutDescription">Un outil simple pour surveiller votre trafic réseau</system:String>
+    <system:String x:Key="MadeWithLove_Part1">Fait avec</system:String>
+    <system:String x:Key="MadeWithLove_Part2">Par</system:String>
+    <system:String x:Key="DeveloperName">Tarek Sadek</system:String>
+    <system:String x:Key="LeadDeveloper">Développeur principal</system:String>
+    <system:String x:Key="Website">Site web</system:String>
+    <system:String x:Key="Donate">Faire un don</system:String>
+    <system:String x:Key="Email">Email</system:String>
+    <system:String x:Key="AllRightsReserved">Tous droits réservés</system:String>
+
+    <!-- ▓▓▓ App Settings (New Window) ▓▓▓ -->
+    <system:String x:Key="AppSettingsTitle">Paramètres de l'application</system:String>
+    <system:String x:Key="GeneralSection">Général</system:String>
+    <system:String x:Key="Language">Langue</system:String>
+    <system:String x:Key="ChoosePreferredInterface">Choisissez votre langue d'interface préférée</system:String>
+    <system:String x:Key="EnglishUS">Anglais</system:String>
+    <system:String x:Key="Arabic">Arabe</system:String>
+    <system:String x:Key="French">Français</system:String>
+    <system:String x:Key="Spanish">Espagnol</system:String>
+    <system:String x:Key="Russian">Russe</system:String>
+
+    <system:String x:Key="Appearance">Apparence</system:String>
+    <system:String x:Key="DarkMode">Mode sombre</system:String>
+    <system:String x:Key="GlobalTheme">Appliquer le thème à toutes les fenêtres</system:String>
+    <system:String x:Key="WindowOpacity">Opacité de la fenêtre</system:String>
+    <system:String x:Key="AdjustTransparency">Ajuster le niveau de transparence</system:String>
+
+    <system:String x:Key="SystemSection">Système</system:String>
+    <system:String x:Key="RunAtStartup">Démarrage au lancement</system:String>
+    <system:String x:Key="LaunchAutomatically">Lancer automatiquement avec Windows</system:String>
+    <system:String x:Key="MinimizeToTray">Réduire dans la barre des tâches</system:String>
+    <system:String x:Key="CloseToTrayDescription">Continuer à fonctionner dans la barre des tâches</system:String>
+    <system:String x:Key="HardwareAcceleration">Accélération matérielle</system:String>
+    <system:String x:Key="UseGPU">Utiliser le GPU pour de meilleures performances</system:String>
+    <system:String x:Key="ReportBug">Signaler un bug</system:String>
+
+    <system:String x:Key="ApplyChanges">Appliquer les modifications</system:String>
+    <system:String x:Key="ChangesSavedOnClose">Les modifications seront enregistrées à la fermeture</system:String>
+    <system:String x:Key="TrafficMonitorVersion">Moniteur de Trafic v1.0.0</system:String>
+
+    <!-- Options -->
+    <system:String x:Key="MousePenetrate">Pénétration de la souris (clic traversant)</system:String>
+    <system:String x:Key="Opacity">Opacité</system:String>
+    <system:String x:Key="TaskbarPosition">Position</system:String>
+    <system:String x:Key="TaskbarDisplay">Affichage</system:String>
+    <system:String x:Key="HorizontalOffset">Décalage horizontal</system:String>
+    <system:String x:Key="VerticalOffset">Décalage vertical</system:String>
+    <system:String x:Key="ShowArrows">Afficher les flèches</system:String>
+    <system:String x:Key="AppearanceSettings">Apparence</system:String>
+    <system:String x:Key="Theme">Thème</system:String>
+    <system:String x:Key="ThemeLight">Clair</system:String>
+    <system:String x:Key="ThemeDark">Sombre</system:String>
+    <system:String x:Key="ThemeAuto">Auto (Système)</system:String>
+
+    <system:String x:Key="StartupSettings">Démarrage</system:String>
+    <system:String x:Key="StartWithWindows">Démarrer avec Windows</system:String>
+    <system:String x:Key="StartMinimized">Démarrer minimisé</system:String>
+    <system:String x:Key="ShowTrayIcon">Afficher l'icône de la barre des tâches</system:String>
+
+    <system:String x:Key="Monitoring">Surveillance</system:String>
+    <system:String x:Key="UpdateInterval">Intervalle de mise à jour</system:String>
+
+    <system:String x:Key="Description">Description:</system:String>
+    <system:String x:Key="IPAddress">Adresse IP:</system:String>
+    <system:String x:Key="MAC">MAC:</system:String>
+    <system:String x:Key="Speed">Vitesse:</system:String>
+
+    <system:String x:Key="AppDescription">Outil de surveillance du trafic réseau en temps réel avec interface moderne.</system:String>
+
+    <system:String x:Key="Status">Statut</system:String>
+    <system:String x:Key="NetworkConnections">Connexions réseau</system:String>
+    <system:String x:Key="NoActiveConnections">Aucune connexion active trouvée</system:String>
+
+    <!-- Days of week -->
+    <system:String x:Key="DaySun">Dim</system:String>
+    <system:String x:Key="DayMon">Lun</system:String>
+    <system:String x:Key="DayTue">Mar</system:String>
+    <system:String x:Key="DayWed">Mer</system:String>
+    <system:String x:Key="DayThu">Jeu</system:String>
+    <system:String x:Key="DayFri">Ven</system:String>
+    <system:String x:Key="DaySat">Sam</system:String>
+
+    <!-- Connection Types -->
+    <system:String x:Key="WiFi">Wi-Fi</system:String>
+    <system:String x:Key="Ethernet">Ethernet</system:String>
+    <system:String x:Key="VPN">VPN</system:String>
+    <system:String x:Key="Network">Réseau</system:String>
+
+    <!-- Toast Notifications -->
+    <system:String x:Key="Toast_TrafficLimitReached">⚠️ Limite de trafic quotidienne atteinte!\nUtilisé: {0} / Limite: {1}</system:String>
+    <system:String x:Key="Toast_SettingsSaved">Paramètres enregistrés avec succès!</system:String>
+    <system:String x:Key="Toast_NetworkConnected">Connexion réseau établie</system:String>
+    <system:String x:Key="Toast_NetworkDisconnected">Connexion réseau perdue</system:String>
+    <system:String x:Key="Toast_ConnectionChanged">Connexion changée pour {0}</system:String>
+    <system:String x:Key="Toast_UpdateAvailable">Nouvelle version {0} disponible!</system:String>
+    <system:String x:Key="Toast_ErrorOccurred">Une erreur est survenue: {0}</system:String>
+    <system:String x:Key="Toast_Close">Fermer</system:String>
+
+    <!-- ============================================ -->
+    <!-- PROCESS NETWORK WINDOW                       -->
+    <!-- ============================================ -->
+    <system:String x:Key="ProcessNetwork_Title">Utilisation réseau des processus</system:String>
+    <system:String x:Key="ProcessNetwork_Monitoring">Surveillance des connexions actives...</system:String>
+    <system:String x:Key="ProcessNetwork_LIVE">EN DIRECT</system:String>
+    <system:String x:Key="ProcessNetwork_Process">Processus</system:String>
+    <system:String x:Key="ProcessNetwork_Upload">Envoi</system:String>
+    <system:String x:Key="ProcessNetwork_Download">Téléchargement</system:String>
+    <system:String x:Key="ProcessNetwork_Total">Total</system:String>
+    <system:String x:Key="ProcessNetwork_Speed">Vitesse</system:String>
+    <system:String x:Key="ProcessNetwork_Name">Nom</system:String>
+    <system:String x:Key="ProcessNetwork_SortBy">Trier par:</system:String>
+    <system:String x:Key="ProcessNetwork_SortBySpeed">Trier par vitesse</system:String>
+    <system:String x:Key="ProcessNetwork_SortByTotal">Trier par trafic total</system:String>
+    <system:String x:Key="ProcessNetwork_SortByName">Trier par nom</system:String>
+    <system:String x:Key="ProcessNetwork_Processes">processus</system:String>
+    <system:String x:Key="ProcessNetwork_Active">actif</system:String>
+
+    <!-- Common -->
+    <system:String x:Key="Common_Close">Fermer</system:String>
+    <system:String x:Key="Common_OK">OK</system:String>
+    <system:String x:Key="Common_Cancel">Annuler</system:String>
+    <system:String x:Key="Common_Save">Enregistrer</system:String>
+    <system:String x:Key="Common_Apply">Appliquer</system:String>
+    <system:String x:Key="Common_Refresh">Actualiser</system:String>
+
+    <!-- ============================================ -->
+    <!-- SPEED TEST WINDOW                            -->
+    <!-- ============================================ -->
+    <system:String x:Key="SpeedTest_Title">Test de vitesse Internet</system:String>
+    <system:String x:Key="SpeedTest_PoweredBy">Propulsé par Cloudflare</system:String>
+    <system:String x:Key="SpeedTest_Ready">Prêt à tester votre connexion</system:String>
+    <system:String x:Key="SpeedTest_TapToStart">APPUYEZ POUR COMMENCER</system:String>
+    <system:String x:Key="SpeedTest_StartTest">Commencer le test</system:String>
+    <system:String x:Key="SpeedTest_Ping">LATENCE</system:String>
+    <system:String x:Key="SpeedTest_Download">TÉLÉCHARGEMENT</system:String>
+    <system:String x:Key="SpeedTest_Upload">ENVOI</system:String>
+    <system:String x:Key="SpeedTest_Jitter">Jitter</system:String>
+    <system:String x:Key="SpeedTest_PacketLoss">Perte de paquets</system:String>
+    <system:String x:Key="SpeedTest_ConnectionDetails">Détails de connexion</system:String>
+    <system:String x:Key="SpeedTest_PublicIP">IP PUBLIQUE</system:String>
+    <system:String x:Key="SpeedTest_LocalIP">IP LOCALE</system:String>
+    <system:String x:Key="SpeedTest_ConnectionType">TYPE DE CONNEXION</system:String>
+    <system:String x:Key="SpeedTest_ISP">FAI</system:String>
+    <system:String x:Key="SpeedTest_Server">SERVEUR</system:String>
+    <system:String x:Key="SpeedTest_Location">EMPLACEMENT</system:String>
+    <system:String x:Key="SpeedTest_TestedOn">Testé le:</system:String>
+    <system:String x:Key="SpeedTest_ConnectionRating">Évaluation de la connexion</system:String>
+    <system:String x:Key="SpeedTest_Gaming">Jeux</system:String>
+    <system:String x:Key="SpeedTest_Streaming">Streaming</system:String>
+    <system:String x:Key="SpeedTest_VideoCall">Appel vidéo</system:String>
+    <system:String x:Key="SpeedTest_Browsing">Navigation</system:String>
+
+    <!-- ============================================ -->
+    <!-- NETWORK INFO WINDOW                          -->
+    <!-- ============================================ -->
+    <system:String x:Key="ConnectionDetails_Title">Détails de connexion</system:String>
+    <system:String x:Key="ConnectionDetails_Subtitle">Informations de connexion réseau</system:String>
+    <system:String x:Key="ConnectionDetails_Description">Description</system:String>
+    <system:String x:Key="ConnectionDetails_IPAddress">Adresse IP</system:String>
+    <system:String x:Key="ConnectionDetails_SubnetMask">Masque de sous-réseau</system:String>
+    <system:String x:Key="ConnectionDetails_DefaultGateway">Passerelle par défaut</system:String>
+    <system:String x:Key="ConnectionDetails_DNSServers">Serveurs DNS</system:String>
+    <system:String x:Key="ConnectionDetails_MACAddress">Adresse MAC</system:String>
+    <system:String x:Key="ConnectionDetails_LinkSpeed">Vitesse de liaison</system:String>
+    <system:String x:Key="ConnectionDetails_BytesReceived">Octets reçus</system:String>
+    <system:String x:Key="ConnectionDetails_BytesSent">Octets envoyés</system:String>
+    <system:String x:Key="ConnectionDetails_ConnectionType">Type de connexion</system:String>
+    <system:String x:Key="ConnectionDetails_StatusActive">Actif</system:String>
+    <system:String x:Key="ConnectionDetails_StatusInactive">Inactif</system:String>
+
+    <!-- ============================================ -->
+    <!-- HISTORY WINDOW                               -->
+    <!-- ============================================ -->
+    <system:String x:Key="History_WindowTitle">Statistiques historiques du trafic</system:String>
+    <system:String x:Key="History_ListView">Vue liste</system:String>
+    <system:String x:Key="History_CalendarView">Vue calendrier</system:String>
+    <system:String x:Key="History_ViewType">Type de vue:</system:String>
+    <system:String x:Key="History_DayView">Vue jour</system:String>
+    <system:String x:Key="History_MonthView">Vue mois</system:String>
+    <system:String x:Key="History_YearView">Vue année</system:String>
+    <system:String x:Key="History_FigureViewScale">Échelle de la figure:</system:String>
+    <system:String x:Key="History_LinearScale">Échelle linéaire</system:String>
+    <system:String x:Key="History_LogarithmicScale">Échelle logarithmique</system:String>
+    <system:String x:Key="History_DateColumn">Date</system:String>
+    <system:String x:Key="History_UploadColumn">Envoi</system:String>
+    <system:String x:Key="History_DownloadColumn">Téléchargement</system:String>
+    <system:String x:Key="History_TotalTrafficColumn">Trafic total</system:String>
+    <system:String x:Key="History_FigureColumn">Figure</system:String>
+    <system:String x:Key="History_Legend">Légende:</system:String>
+    <system:String x:Key="History_MonthTotalTraffic">Trafic total du mois en cours:</system:String>
+    <system:String x:Key="History_Legend_0_1GB">0 ~ 1 Go</system:String>
+    <system:String x:Key="History_Legend_1_10GB">1 ~ 10 Go</system:String>
+    <system:String x:Key="History_Legend_10_100GB">10 ~ 100 Go</system:String>
+    <system:String x:Key="History_Legend_100GB_1TB">100 Go ~ 1 To</system:String>
+    <system:String x:Key="History_Legend_1TBplus">1 To +</system:String>
+
+    <!-- ============================================ -->
+    <!-- ABOUT WINDOW                                 -->
+    <!-- ============================================ -->
+    <system:String x:Key="About_WindowTitle">À propos</system:String>
+    <system:String x:Key="About_VersionLabel">Version 1.0.0</system:String>
+    <system:String x:Key="About_Description">Un outil simple pour surveiller votre trafic réseau</system:String>
+    <system:String x:Key="About_MadeWithLove_Part1">Fait avec</system:String>
+    <system:String x:Key="About_MadeWithLove_Part2">Par</system:String>
+    <system:String x:Key="About_DeveloperName">Tarek Sadek</system:String>
+    <system:String x:Key="About_LeadDeveloper">Développeur principal</system:String>
+    <system:String x:Key="About_Website">Site web</system:String>
+    <system:String x:Key="About_Donate">Faire un don</system:String>
+    <system:String x:Key="About_Email">Email</system:String>
+    <system:String x:Key="About_AllRightsReserved">Tous droits réservés</system:String>
+    <system:String x:Key="About_StatusActive">Actif</system:String>
+    <system:String x:Key="About_OK">OK</system:String>
+
+    <!-- ============================================ -->
+    <!-- TASKBAR WINDOW                               -->
+    <!-- ============================================ -->
+    <system:String x:Key="Taskbar_UploadArrow">&#x2191;</system:String>
+    <system:String x:Key="Taskbar_DownloadArrow">&#x2193;</system:String>
+    <system:String x:Key="Taskbar_Separator">:</system:String>
+
+    <!-- ============================================ -->
+    <!-- OPTIONS WINDOW - ADDITIONAL                  -->
+    <!-- ============================================ -->
+    <system:String x:Key="Options_MainWindowSettings">Fenêtre principale</system:String>
+    <system:String x:Key="Options_TaskbarWindowSettings">Fenêtre de la barre des tâches</system:String>
+    <system:String x:Key="Options_GeneralSettings">Général</system:String>
+    <system:String x:Key="Options_ColorAndFont">Couleur et police</system:String>
+    <system:String x:Key="Options_Font">Police:</system:String>
+    <system:String x:Key="Options_ChooseFont">Choisir la police...</system:String>
+    <system:String x:Key="Options_RestoreDefault">Restaurer par défaut</system:String>
+    <system:String x:Key="Options_TextColor">Couleur du texte:</system:String>
+    <system:String x:Key="Options_BackgroundColor">Couleur d'arrière-plan:</system:String>
+    <system:String x:Key="Options_BackgroundTransparent">Arrière-plan transparent</system:String>
+    <system:String x:Key="Options_DisplayText">Texte d'affichage</system:String>
+    <system:String x:Key="Options_SwapUpDown">Échanger envoi et téléchargement</system:String>
+    <system:String x:Key="Options_SpeedShortMode">Mode court pour la vitesse</system:String>
+    <system:String x:Key="Options_SeparateValueUnit">Séparer valeur et unité par un espace</system:String>
+    <system:String x:Key="Options_ShowToolTip">Afficher l'infobulle</system:String>
+    <system:String x:Key="Options_NetSpeedUnit">Unité de vitesse réseau</system:String>
+    <system:String x:Key="Options_NetspeedUnit">Unité de vitesse:</system:String>
+    <system:String x:Key="Options_UnitByte">Octet (KB/s, MB/s)</system:String>
+    <system:String x:Key="Options_UnitBit">Bit (Kbps, Mbps)</system:String>
+    <system:String x:Key="Options_UnitSelection">Sélection d'unité:</system:String>
+    <system:String x:Key="Options_WindowBehavior">Comportement</system:String>
+    <system:String x:Key="Options_AlwaysOnTop">Toujours au premier plan</system:String>
+    <system:String x:Key="Options_LockWindowPos">Verrouiller la position</system:String>
+    <system:String x:Key="Options_HideMainWindowFullscreen">Masquer en plein écran</system:String>
+    <system:String x:Key="Options_MousePenetrate">Pénétration de la souris</system:String>
+    <system:String x:Key="Options_DoubleClickAction">Action double-clic:</system:String>
+    <system:String x:Key="Options_OpenConnectionDetails">Ouvrir détails connexion</system:String>
+    <system:String x:Key="Options_OpenHistoricalTraffic">Ouvrir statistiques</system:String>
+    <system:String x:Key="Options_OpenOptions">Ouvrir options</system:String>
+    <system:String x:Key="Options_OpenTaskManager">Ouvrir gestionnaire des tâches</system:String>
+    <system:String x:Key="Options_DoNothing">Ne rien faire</system:String>
+    <system:String x:Key="Options_Opacity">Opacité</system:String>
+    <system:String x:Key="Options_TaskbarPosition">Position</system:String>
+    <system:String x:Key="Options_ShowTaskbarWindow">Afficher fenêtre barre des tâches</system:String>
+    <system:String x:Key="Options_TaskbarWindowOnLeft">Fenêtre à gauche</system:String>
+    <system:String x:Key="Options_HorizontalOffset">Décalage horizontal</system:String>
+    <system:String x:Key="Options_VerticalOffset">Décalage vertical</system:String>
+    <system:String x:Key="Options_TaskbarDisplay">Affichage</system:String>
+    <system:String x:Key="Options_ShowArrows">Afficher flèches</system:String>
+    <system:String x:Key="Options_DigitsNumber">Nombre de chiffres</system:String>
+    <system:String x:Key="Options_Characters">Caractères</system:String>
+    <system:String x:Key="Options_Appearance">Apparence</system:String>
+    <system:String x:Key="Options_Theme">Thème</system:String>
+    <system:String x:Key="Options_ThemeLight">Clair</system:String>
+    <system:String x:Key="Options_ThemeDark">Sombre</system:String>
+    <system:String x:Key="Options_ThemeAuto">Auto (Système)</system:String>
+    <system:String x:Key="Options_Language">Langue</system:String>
+    <system:String x:Key="Options_Startup">Démarrage</system:String>
+    <system:String x:Key="Options_StartWithWindows">Démarrer avec Windows</system:String>
+    <system:String x:Key="Options_StartMinimized">Démarrer minimisé</system:String>
+    <system:String x:Key="Options_ShowTrayIcon">Afficher icône</system:String>
+    <system:String x:Key="Options_HardwareAcceleration">Accélération matérielle</system:String>
+    <system:String x:Key="Options_Monitoring">Surveillance</system:String>
+    <system:String x:Key="Options_UpdateInterval">Intervalle de mise à jour</system:String>
+    <system:String x:Key="Options_AutoSelect">Sélection auto de la connexion active</system:String>
+    <system:String x:Key="Options_SelectNetworkConnections">Sélectionner les connexions</system:String>
+    <system:String x:Key="Options_Notification">Notifications</system:String>
+    <system:String x:Key="Options_NotifyTrafficReached">Notifier limite quotidienne</system:String>
+    <system:String x:Key="Options_AutoUnit">Auto (Dynamique)</system:String>
+    <system:String x:Key="Options_Save">Enregistrer</system:String>
+    <system:String x:Key="Options_Cancel">Annuler</system:String>
+
+    <!-- ============================================ -->
+    <!-- MAIN WINDOW                                  -->
+    <!-- ============================================ -->
+    <system:String x:Key="MainWindow_Title">Moniteur de Trafic</system:String>
+    <system:String x:Key="MainWindow_UploadLabel">Envoi:</system:String>
+    <system:String x:Key="MainWindow_DownloadLabel">Téléchargement:</system:String>
+    <system:String x:Key="MainWindow_TodayLabel">Aujourd'hui:</system:String>
+    <system:String x:Key="MainWindow_Menu">Menu</system:String>
+    <system:String x:Key="MainWindow_Close">Fermer</system:String>
+
+    <!-- ============================================ -->
+    <!-- CONTEXT MENU                                 -->
+    <!-- ============================================ -->
+    <system:String x:Key="Menu_SelectNetworkConnections">Sélectionner les connexions</system:String>
+    <system:String x:Key="Menu_AutoSelect">Sélection auto</system:String>
+    <system:String x:Key="Menu_ConnectionDetails">Détails de connexion</system:String>
+    <system:String x:Key="Menu_HistoricalTraffic">Statistiques historiques</system:String>
+    <system:String x:Key="Menu_ProcessNetworkUsage">Utilisation réseau des processus</system:String>
+    <system:String x:Key="Menu_SpeedTest">Test de vitesse</system:String>
+    <system:String x:Key="Menu_Options">Options...</system:String>
+    <system:String x:Key="Menu_ShowMainWindow">Afficher fenêtre principale</system:String>
+    <system:String x:Key="Menu_HideMainWindow">Masquer fenêtre principale</system:String>
+    <system:String x:Key="Menu_ShowTaskbarWindow">Afficher fenêtre barre des tâches</system:String>
+    <system:String x:Key="Menu_CloseTaskbarWindow">Fermer fenêtre barre des tâches</system:String>
+    <system:String x:Key="Menu_TaskManager">Gestionnaire des tâches</system:String>
+    <system:String x:Key="Menu_Help">Aide</system:String>
+    <system:String x:Key="Menu_About">À propos...</system:String>
+    <system:String x:Key="Menu_Exit">Quitter</system:String>
+
+    <!-- ============================================ -->
+    <!-- COMMON                                       -->
+    <!-- ============================================ -->
+    <system:String x:Key="Common_Error">Erreur</system:String>
+    <system:String x:Key="Common_Success">Succès</system:String>
+    <system:String x:Key="Common_Warning">Avertissement</system:String>
+    <system:String x:Key="Common_Info">Information</system:String>
+    <system:String x:Key="Common_Today">Aujourd'hui</system:String>
+    <system:String x:Key="Common_Yesterday">Hier</system:String>
+
+    <!-- Tray & Taskbar -->
+    <system:String x:Key="Tray_DefaultTooltip">Moniteur de Trafic</system:String>
+    <system:String x:Key="Tray_LimitTooltip">⚠️ Moniteur de Trafic - Limite quotidienne atteinte!</system:String>
+    <system:String x:Key="Tray_SpeedTooltip">↑ {0}\n↓ {1}</system:String>
+    <system:String x:Key="Taskbar_Tooltip">↑ {0}\n↓ {1}\nAujourd'hui: {2}</system:String>
+
+    <!-- Process Network -->
+    <system:String x:Key="ProcessNetwork_StatusFormat">{0} processus ({1} actifs)</system:String>
+    <system:String x:Key="ProcessNetwork_LastUpdated">Dernière mise à jour: {0}</system:String>
+
+    <!-- Speed Test -->
+    <system:String x:Key="SpeedTest_GaugeReady">PRÊT</system:String>
+    <system:String x:Key="SpeedTest_CancelBtn">Annuler</system:String>
+    <system:String x:Key="SpeedTest_Preparing">PRÉPARATION</system:String>
+    <system:String x:Key="SpeedTest_Testing">TEST...</system:String>
+    <system:String x:Key="SpeedTest_GaugeComplete">COMPLET</system:String>
+    <system:String x:Key="SpeedTest_Cancelled">Test annulé.</system:String>
+    <system:String x:Key="SpeedTest_ErrorPrefix">Erreur: {0}</system:String>
+    <system:String x:Key="SpeedTest_FinalStatus">✓ Test terminé! ↓{0:F1} / ↑{1:F1} Mbps</system:String>
+    <system:String x:Key="SpeedTest_FindingServer">Recherche du meilleur serveur...</system:String>
+    <system:String x:Key="SpeedTest_GettingNetworkInfo">Récupération des infos réseau...</system:String>
+    <system:String x:Key="SpeedTest_TestingLatency">Test de latence...</system:String>
+    <system:String x:Key="SpeedTest_TestingPacketLoss">Test de perte de paquets...</system:String>
+    <system:String x:Key="SpeedTest_TestingDownload">Test de téléchargement...</system:String>
+    <system:String x:Key="SpeedTest_TestingUpload">Test d'envoi...</system:String>
+    <system:String x:Key="SpeedTest_Complete">Test terminé!</system:String>
+    <system:String x:Key="SpeedTest_GetReadyDownload">Préparez-vous pour le test de téléchargement</system:String>
+    <system:String x:Key="SpeedTest_GetReadyUpload">Préparez-vous pour le test d'envoi</system:String>
+    <system:String x:Key="SpeedTest_UnitMs">ms</system:String>
+    <system:String x:Key="SpeedTest_UnitMbps">Mbps</system:String>
+
+    <!-- Ratings -->
+    <system:String x:Key="Rating_FactorPing">Latence</system:String>
+    <system:String x:Key="Rating_FactorJitter">Jitter</system:String>
+    <system:String x:Key="Rating_FactorPacketLoss">Perte de paquets</system:String>
+    <system:String x:Key="Rating_StatusExcellent">✓ Excellent</system:String>
+    <system:String x:Key="Rating_StatusGood">✓ Bon</system:String>
+    <system:String x:Key="Rating_StatusHigh">⚠ Élevé</system:String>
+    <system:String x:Key="Rating_StatusStable">✓ Stable</system:String>
+    <system:String x:Key="Rating_StatusUnstable">⚠ Instable</system:String>
+    <system:String x:Key="Rating_StatusPerfect">✓ Parfait</system:String>
+    <system:String x:Key="Rating_StatusLossy">⚠ Avec pertes</system:String>
+    <system:String x:Key="Rating_Excellent">Excellent</system:String>
+    <system:String x:Key="Rating_Good">Bon</system:String>
+    <system:String x:Key="Rating_Fair">Moyen</system:String>
+    <system:String x:Key="Rating_Poor">Mauvais</system:String>
+    <system:String x:Key="Rating_GamingTitle">Jeux</system:String>
+    <system:String x:Key="Rating_GamingSummary">Adapté pour les jeux {0}.</system:String>
+    <system:String x:Key="Rating_GamingPerfect">Parfait pour les jeux compétitifs!</system:String>
+    <system:String x:Key="Rating_GamingHighPing">Latence élevée peut causer des retards. Essayez une connexion filaire.</system:String>
+    <system:String x:Key="Rating_GamingUnstable">Connexion instable. Vérifiez les interférences Wi-Fi.</system:String>
+    <system:String x:Key="Rating_GamingLossy">Pertes de paquets détectées. Contactez votre FAI si persistant.</system:String>
+    <system:String x:Key="Rating_StreamingTitle">Streaming</system:String>
+    <system:String x:Key="Rating_StreamingSummary">Qualité de streaming {0}.</system:String>
+    <system:String x:Key="Rating_StreamingUpgrade">Envisagez une mise à niveau pour le streaming HD.</system:String>
+    <system:String x:Key="Rating_StreamingGood">Bon pour le streaming!</system:String>
+    <system:String x:Key="Rating_VideoCallTitle">Appel vidéo</system:String>
+    <system:String x:Key="Rating_VideoCallSummary">{0} pour les visioconférences.</system:String>
+    <system:String x:Key="Rating_VideoCallLowUpload">Un faible débit d'envoi peut affecter la qualité vidéo.</system:String>
+    <system:String x:Key="Rating_VideoCallGood">Bon pour les appels!</system:String>
+    <system:String x:Key="Rating_BrowsingTitle">Navigation</system:String>
+    <system:String x:Key="Rating_BrowsingSummary">Expérience de navigation {0}.</system:String>
+    <system:String x:Key="Rating_BrowsingSlow">Les pages peuvent se charger lentement.</system:String>
+    <system:String x:Key="Rating_BrowsingSmooth">Navigation fluide!</system:String>
+    <system:String x:Key="Rating_4KReady">Prêt pour la 4K</system:String>
+    <system:String x:Key="Rating_1080pHD">1080p HD</system:String>
+    <system:String x:Key="Rating_720pHD">720p HD</system:String>
+    <system:String x:Key="Rating_SDOnly">SD uniquement</system:String>
+    <system:String x:Key="Rating_TooSlow">Trop lent</system:String>
+    <system:String x:Key="Rating_HDReady">Prêt HD</system:String>
+    <system:String x:Key="Rating_SDReady">Prêt SD</system:String>
+    <system:String x:Key="Rating_Fast">Rapide</system:String>
+    <system:String x:Key="Rating_VerySlow">Très lent</system:String>
+
+    <!-- History -->
+    <system:String x:Key="History_CellTooltip">Date: {0}\nTotal: {1}</system:String>
+
+    <!-- About -->
+    <system:String x:Key="About_FallbackMessage">À propos de Moniteur de Trafic\nVersion 1.0\n\nUn outil de surveillance du trafic réseau</system:String>
+    <system:String x:Key="About_LinkError">Impossible d'ouvrir le lien: {0}</system:String>
+
+    <!-- Connection Types -->
+    <system:String x:Key="ConnType_WiFi">Wi-Fi</system:String>
+    <system:String x:Key="ConnType_Ethernet">Ethernet</system:String>
+    <system:String x:Key="ConnType_VPN">VPN</system:String>
+    <system:String x:Key="ConnType_Network">Réseau</system:String>
+
+    <!-- Common -->
+    <system:String x:Key="Common_NA">N/D</system:String>
+    <system:String x:Key="Common_Unknown">Inconnu</system:String>
+
+    <system:String x:Key="Rating_Slow">Lent</system:String>
+    <system:String x:Key="Rating_GamingCompetitive">compétitifs</system:String>
+    <system:String x:Key="Rating_GamingCasual">occasionnels</system:String>
+    <system:String x:Key="Rating_GamingSinglePlayer">solo</system:String>
+    <system:String x:Key="Rating_Perfect">Parfait</system:String>
+
+</ResourceDictionary>

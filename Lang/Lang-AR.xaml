@@ -1,0 +1,612 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <!-- ════════════════════════════════════════════════ -->
+    <!-- ARABIC (AR) — العربية                           -->
+    <!-- ════════════════════════════════════════════════ -->
+
+    <!-- Language Name -->
+    <system:String x:Key="LanguageName">Arabic</system:String>
+    <system:String x:Key="LanguageNativeName">العربية</system:String>
+
+    <!-- ▓▓▓ App & General ▓▓▓ -->
+    <system:String x:Key="AppName">مراقب الشبكة</system:String>
+    <system:String x:Key="AppSubtitle">مراقبة سرعة الشبكة</system:String>
+    <system:String x:Key="OK">موافق</system:String>
+    <system:String x:Key="Cancel">إلغاء</system:String>
+    <system:String x:Key="Apply">تطبيق</system:String>
+    <system:String x:Key="Close">إغلاق</system:String>
+    <system:String x:Key="Save">حفظ</system:String>
+    <system:String x:Key="Reset">إعادة تعيين</system:String>
+    <system:String x:Key="Yes">نعم</system:String>
+    <system:String x:Key="No">لا</system:String>
+    <system:String x:Key="Error">خطأ</system:String>
+    <system:String x:Key="Success">نجاح</system:String>
+    <system:String x:Key="Warning">تحذير</system:String>
+    <system:String x:Key="Info">معلومات</system:String>
+    <system:String x:Key="Refresh">تحديث</system:String>
+    <system:String x:Key="Browse">استعراض...</system:String>
+    <system:String x:Key="Today">اليوم</system:String>
+    <system:String x:Key="Yesterday">أمس</system:String>
+
+    <!-- ▓▓▓ Main Window ▓▓▓ -->
+    <system:String x:Key="MainWindowTitle">مراقب الشبكة</system:String>
+    <system:String x:Key="UploadLabel">رفع:</system:String>
+    <system:String x:Key="DownloadLabel">تنزيل:</system:String>
+    <system:String x:Key="TodayLabel">اليوم:</system:String>
+    <system:String x:Key="ConnectionLabel">الاتصال:</system:String>
+    <system:String x:Key="Menu">القائمة</system:String>
+
+    <!-- ▓▓▓ Tray Menu ▓▓▓ -->
+    <system:String x:Key="SelectNetworkConnections">اختر اتصالات الشبكة</system:String>
+    <system:String x:Key="AutoSelect">تحديد تلقائي</system:String>
+    <system:String x:Key="ConnectionDetails">تفاصيل الاتصال</system:String>
+    <system:String x:Key="HistoricalTraffic">إحصائيات حركة المرور التاريخية</system:String>
+    <system:String x:Key="DisplaySettings">إعدادات العرض...</system:String>
+    <system:String x:Key="ShowMainWindow">إظهار النافذة الرئيسية</system:String>
+    <system:String x:Key="HideMainWindow">إخفاء النافذة الرئيسية</system:String>
+    <system:String x:Key="ShowTaskbarWindow">إظهار نافذة شريط المهام</system:String>
+    <system:String x:Key="CloseTaskbarWindow">إغلاق نافذة شريط المهام</system:String>
+    <system:String x:Key="TaskManager">مدير المهام</system:String>
+    <system:String x:Key="Options">خيارات...</system:String>
+    <system:String x:Key="AppSettings">إعدادات التطبيق...</system:String>
+    <system:String x:Key="Help">مساعدة</system:String>
+    <system:String x:Key="About">حول...</system:String>
+    <system:String x:Key="Exit">خروج</system:String>
+
+    <!-- ▓▓▓ Options Window ▓▓▓ -->
+    <system:String x:Key="OptionSettings">إعدادات الخيارات</system:String>
+    <system:String x:Key="MainWindowSettings">إعدادات النافذة الرئيسية</system:String>
+    <system:String x:Key="TaskbarWindowSettings">إعدادات نافذة شريط المهام</system:String>
+    <system:String x:Key="GeneralSettingsTab">الإعدادات العامة</system:String>
+
+    <system:String x:Key="ColorAndFont">اللون والخط</system:String>
+    <system:String x:Key="Font">الخط:</system:String>
+    <system:String x:Key="ChooseFont">اختر الخط...</system:String>
+    <system:String x:Key="FontSize">حجم الخط:</system:String>
+    <system:String x:Key="RestoreDefault">استعادة الافتراضي</system:String>
+    <system:String x:Key="TextColor">لون النص:</system:String>
+    <system:String x:Key="BackgroundColor">لون الخلفية:</system:String>
+    <system:String x:Key="BackgroundTransparent">خلفية شفافة</system:String>
+
+    <system:String x:Key="DisplayText">نص العرض</system:String>
+    <system:String x:Key="SwapUpDown">تبديل موضع الرفع والتنزيل</system:String>
+    <system:String x:Key="SpeedShortMode">الوضع المختصر لعرض سرعة الشبكة</system:String>
+    <system:String x:Key="SeparateValueUnit">فصل القيمة والوحدة بمسافة</system:String>
+    <system:String x:Key="ShowToolTip">إظهار تلميح الماوس</system:String>
+
+    <system:String x:Key="WindowBehavior">سلوك النافذة</system:String>
+    <system:String x:Key="AlwaysOnTop">دائماً في المقدمة</system:String>
+    <system:String x:Key="LockWindowPos">قفل موضع النافذة</system:String>
+    <system:String x:Key="HideMainWindowFullscreen">إخفاء النافذة الرئيسية عند تشغيل البرنامج بملء الشاشة</system:String>
+    <system:String x:Key="DoubleClickAction">إجراء النقر المزدوج:</system:String>
+    <system:String x:Key="OpenConnectionDetails">فتح تفاصيل الاتصال</system:String>
+    <system:String x:Key="OpenHistoricalTraffic">فتح إحصائيات حركة المرور التاريخية</system:String>
+    <system:String x:Key="OpenOptions">فتح الخيارات</system:String>
+    <system:String x:Key="OpenTaskManagerAction">فتح مدير المهام</system:String>
+    <system:String x:Key="DoNothing">لا تفعل شيئاً</system:String>
+
+    <system:String x:Key="UnitSettings">إعدادات الوحدة</system:String>
+    <system:String x:Key="NetSpeedUnit">وحدة سرعة الشبكة</system:String>
+    <system:String x:Key="NetspeedUnit">وحدة سرعة الشبكة:</system:String>
+    <system:String x:Key="UnitByteLabel">B (بايت)</system:String>
+    <system:String x:Key="UnitByte">بايت (KB/s, MB/s)</system:String>
+    <system:String x:Key="UnitBitLabel">b (بت)</system:String>
+    <system:String x:Key="UnitBit">بت (Kbps, Mbps)</system:String>
+    <system:String x:Key="UnitSelection">اختيار الوحدة:</system:String>
+    <system:String x:Key="UnitAuto">تلقائي</system:String>
+    <system:String x:Key="AutoUnit">تلقائي (ديناميكي)</system:String>
+    <system:String x:Key="UnitKB">KB/s</system:String>
+    <system:String x:Key="UnitMB">MB/s</system:String>
+    <system:String x:Key="HideUnitLabel">عدم إظهار وحدة السرعة</system:String>
+
+    <!-- Taskbar tab -->
+    <system:String x:Key="TaskbarDisplaySettings">إعدادات العرض</system:String>
+    <system:String x:Key="AlignValuesRight">محاذاة القيم إلى اليمين</system:String>
+    <system:String x:Key="NetSpeedDataWidth">عرض بيانات سرعة الشبكة:</system:String>
+    <system:String x:Key="HorizontalArrange">ترتيب أفقي</system:String>
+    <system:String x:Key="ItemSpacing">تباعد العناصر:</system:String>
+    <system:String x:Key="VerticalMargin">الهامش العمودي:</system:String>
+    <system:String x:Key="TaskbarWindowPosition">موضع نافذة شريط المهام</system:String>
+    <system:String x:Key="TaskbarOnLeft">ظهور نافذة شريط المهام على يسار شريط المهام</system:String>
+    <system:String x:Key="TaskbarWindowOnLeft">نافذة شريط المهام على اليسار</system:String>
+    <system:String x:Key="DigitsNumber">عدد الأرقام</system:String>
+    <system:String x:Key="Characters">محارف</system:String>
+
+    <system:String x:Key="NetSpeedGraph">رسم بياني لسرعة الشبكة</system:String>
+    <system:String x:Key="ShowNetSpeedGraph">إظهار الرسم البياني لسرعة الشبكة</system:String>
+    <system:String x:Key="MaxValue">القيمة القصوى:</system:String>
+    <system:String x:Key="GraphColor">لون الرسم البياني:</system:String>
+    <system:String x:Key="BarMode">وضع الأعمدة</system:String>
+    <system:String x:Key="PlotMode">وضع الرسم</system:String>
+
+    <!-- General tab -->
+    <system:String x:Key="ApplicationSettings">إعدادات التطبيق</system:String>
+    <system:String x:Key="CheckUpdateAtStart">التحقق من التحديث عند بدء التشغيل</system:String>
+    <system:String x:Key="CheckNow">تحقق الآن</system:String>
+    <system:String x:Key="AutoRun">تشغيل تلقائي عند بدء تشغيل Windows</system:String>
+    <system:String x:Key="ApplyAutorun">تطبيق التشغيل التلقائي</system:String>
+    <system:String x:Key="LanguageLabel">اللغة:</system:String>
+    <system:String x:Key="FollowingSystem">متابعة النظام</system:String>
+    <system:String x:Key="ShowNotifyIcon">إظهار أيقونة الإعلام في شريط المهام</system:String>
+
+    <system:String x:Key="TrafficNotifications">إشعارات حركة المرور</system:String>
+    <system:String x:Key="NotifyTrafficReached">الإشعار عند الوصول إلى حد حركة المرور اليومية</system:String>
+    <system:String x:Key="LimitLabel">الحد:</system:String>
+    <system:String x:Key="NotificationMessage">الإشعارات والرسائل</system:String>
+
+    <system:String x:Key="NetworkConnection">اتصال الشبكة</system:String>
+    <system:String x:Key="ShowAllConnections">إظهار جميع اتصالات الشبكة</system:String>
+    <system:String x:Key="AutoSelectActive">تحديد تلقائي للاتصال النشط</system:String>
+    <system:String x:Key="SelectConnectionToMonitor">اختر الاتصال للمراقبة...</system:String>
+    <system:String x:Key="MonitoringInterval">فترة المراقبة:</system:String>
+    <system:String x:Key="Milliseconds">ميلي ثانية</system:String>
+
+    <!-- ▓▓▓ History Window ▓▓▓ -->
+    <system:String x:Key="HistoryTitle">إحصائيات حركة المرور التاريخية</system:String>
+    <system:String x:Key="ListView">عرض القائمة</system:String>
+    <system:String x:Key="CalendarView">عرض التقويم</system:String>
+    <system:String x:Key="ViewType">نوع العرض:</system:String>
+    <system:String x:Key="DayView">عرض يومي</system:String>
+    <system:String x:Key="MonthView">عرض شهري</system:String>
+    <system:String x:Key="YearView">عرض سنوي</system:String>
+    <system:String x:Key="FigureViewScale">مقياس عرض الشكل:</system:String>
+    <system:String x:Key="LinearScale">مقياس خطي</system:String>
+    <system:String x:Key="LogarithmicScale">مقياس لوغاريتمي</system:String>
+    <system:String x:Key="DateColumn">التاريخ</system:String>
+    <system:String x:Key="UploadColumn">رفع</system:String>
+    <system:String x:Key="DownloadColumn">تنزيل</system:String>
+    <system:String x:Key="TotalTrafficColumn">إجمالي حركة المرور</system:String>
+    <system:String x:Key="FigureColumn">الشكل</system:String>
+    <system:String x:Key="Year">السنة:</system:String>
+    <system:String x:Key="Month">الشهر:</system:String>
+    <system:String x:Key="Legend">الإيضاح:</system:String>
+    <system:String x:Key="MonthTotalTraffic">إجمالي حركة المرور للشهر الحالي:</system:String>
+
+    <!-- ▓▓▓ Network Info Window ▓▓▓ -->
+    <system:String x:Key="SubnetMask">قناع الشبكة الفرعية</system:String>
+    <system:String x:Key="DefaultGateway">البوابة الافتراضية</system:String>
+    <system:String x:Key="DnsServers">خوادم DNS</system:String>
+    <system:String x:Key="LinkSpeed">سرعة الارتباط</system:String>
+    <system:String x:Key="BytesReceived">البايتات المستلمة</system:String>
+    <system:String x:Key="BytesSent">البايتات المرسلة</system:String>
+    <system:String x:Key="ConnectionType">نوع الاتصال</system:String>
+    <system:String x:Key="NetworkInfoTitle">تفاصيل الاتصال</system:String>
+    <system:String x:Key="NetworkConnectionInfo">معلومات اتصال الشبكة</system:String>
+    <system:String x:Key="PropertyColumn">الخاصية</system:String>
+    <system:String x:Key="ValueColumn">القيمة</system:String>
+    <system:String x:Key="PropName">الاسم</system:String>
+    <system:String x:Key="PropDescription">الوصف</system:String>
+    <system:String x:Key="PropIpAddress">عنوان IP</system:String>
+    <system:String x:Key="PropMacAddress">عنوان MAC</system:String>
+    <system:String x:Key="PropSpeed">السرعة</system:String>
+    <system:String x:Key="PropStatus">الحالة</system:String>
+    <system:String x:Key="StatusActive">نشط</system:String>
+    <system:String x:Key="StatusInactive">غير نشط</system:String>
+
+    <!-- ▓▓▓ About Window ▓▓▓ -->
+    <system:String x:Key="AboutTitle">حول</system:String>
+    <system:String x:Key="VersionLabel">الإصدار 1.0.0</system:String>
+    <system:String x:Key="AboutDescription">أداة بسيطة لمراقبة حركة مرور الشبكة</system:String>
+    <system:String x:Key="MadeWithLove_Part1">صُنع بـ</system:String>
+    <system:String x:Key="MadeWithLove_Part2">بواسطة</system:String>
+    <system:String x:Key="DeveloperName">طارق صادق</system:String>
+    <system:String x:Key="LeadDeveloper">المطور الرئيسي</system:String>
+    <system:String x:Key="Website">الموقع الإلكتروني</system:String>
+    <system:String x:Key="Donate">تبرع</system:String>
+    <system:String x:Key="Email">البريد الإلكتروني</system:String>
+    <system:String x:Key="AllRightsReserved">جميع الحقوق محفوظة</system:String>
+
+    <!-- ▓▓▓ App Settings (New Window) ▓▓▓ -->
+    <system:String x:Key="AppSettingsTitle">إعدادات التطبيق</system:String>
+    <system:String x:Key="GeneralSection">عام</system:String>
+    <system:String x:Key="Language">اللغة</system:String>
+    <system:String x:Key="ChoosePreferredInterface">اختر لغة الواجهة المفضلة لديك</system:String>
+    <system:String x:Key="EnglishUS">الإنجليزية</system:String>
+    <system:String x:Key="Arabic">العربية</system:String>
+    <system:String x:Key="French">الفرنسية</system:String>
+    <system:String x:Key="Spanish">الإسبانية</system:String>
+    <system:String x:Key="Russian">الروسية</system:String>
+
+    <system:String x:Key="Appearance">المظهر</system:String>
+    <system:String x:Key="DarkMode">الوضع الداكن</system:String>
+    <system:String x:Key="GlobalTheme">تطبيق السمة على جميع النوافذ</system:String>
+    <system:String x:Key="WindowOpacity">شفافية النافذة</system:String>
+    <system:String x:Key="AdjustTransparency">ضبط مستوى الشفافية</system:String>
+
+    <system:String x:Key="SystemSection">النظام</system:String>
+    <system:String x:Key="RunAtStartup">التشغيل عند بدء التشغيل</system:String>
+    <system:String x:Key="LaunchAutomatically">التشغيل تلقائياً مع Windows</system:String>
+    <system:String x:Key="MinimizeToTray">تصغير إلى شريط المهام</system:String>
+    <system:String x:Key="CloseToTrayDescription">الاستمرار في التشغيل في شريط المهام</system:String>
+    <system:String x:Key="HardwareAcceleration">تسريع الأجهزة</system:String>
+    <system:String x:Key="UseGPU">استخدام GPU لأداء أفضل</system:String>
+    <system:String x:Key="ReportBug">الإبلاغ عن خطأ</system:String>
+
+    <system:String x:Key="ApplyChanges">تطبيق التغييرات</system:String>
+    <system:String x:Key="ChangesSavedOnClose">سيتم حفظ التغييرات عند الإغلاق</system:String>
+    <system:String x:Key="TrafficMonitorVersion">مراقب الشبكة الإصدار 1.0.0</system:String>
+
+    <!-- Options -->
+    <system:String x:Key="MousePenetrate">اختراق الماوس (نقر من خلال)</system:String>
+    <system:String x:Key="Opacity">الشفافية</system:String>
+    <system:String x:Key="TaskbarPosition">الموضع</system:String>
+    <system:String x:Key="TaskbarDisplay">العرض</system:String>
+    <system:String x:Key="HorizontalOffset">الإزاحة الأفقية</system:String>
+    <system:String x:Key="VerticalOffset">الإزاحة الرأسية</system:String>
+    <system:String x:Key="ShowArrows">إظهار الأسهم</system:String>
+    <system:String x:Key="AppearanceSettings">المظهر</system:String>
+    <system:String x:Key="Theme">السمة</system:String>
+    <system:String x:Key="ThemeLight">فاتح</system:String>
+    <system:String x:Key="ThemeDark">داكن</system:String>
+    <system:String x:Key="ThemeAuto">تلقائي (النظام)</system:String>
+
+    <system:String x:Key="StartupSettings">بدء التشغيل</system:String>
+    <system:String x:Key="StartWithWindows">بدء التشغيل مع Windows</system:String>
+    <system:String x:Key="StartMinimized">بدء التشغيل مصغراً</system:String>
+    <system:String x:Key="ShowTrayIcon">إظهار أيقونة شريط المهام</system:String>
+
+    <system:String x:Key="Monitoring">المراقبة</system:String>
+    <system:String x:Key="UpdateInterval">فترة التحديث</system:String>
+
+    <system:String x:Key="Description">الوصف:</system:String>
+    <system:String x:Key="IPAddress">عنوان IP:</system:String>
+    <system:String x:Key="MAC">MAC:</system:String>
+    <system:String x:Key="Speed">السرعة:</system:String>
+
+    <system:String x:Key="AppDescription">أداة مراقبة حركة مرور الشبكة في الوقت الفعلي بواجهة حديثة.</system:String>
+
+    <system:String x:Key="Status">الحالة</system:String>
+    <system:String x:Key="NetworkConnections">اتصالات الشبكة</system:String>
+    <system:String x:Key="NoActiveConnections">لم يتم العثور على اتصالات نشطة</system:String>
+
+    <!-- Days of week -->
+    <system:String x:Key="DaySun">أحد</system:String>
+    <system:String x:Key="DayMon">إثنين</system:String>
+    <system:String x:Key="DayTue">ثلاثاء</system:String>
+    <system:String x:Key="DayWed">أربعاء</system:String>
+    <system:String x:Key="DayThu">خميس</system:String>
+    <system:String x:Key="DayFri">جمعة</system:String>
+    <system:String x:Key="DaySat">سبت</system:String>
+
+    <!-- Connection Types -->
+    <system:String x:Key="WiFi">واي فاي</system:String>
+    <system:String x:Key="Ethernet">إيثرنت</system:String>
+    <system:String x:Key="VPN">VPN</system:String>
+    <system:String x:Key="Network">شبكة</system:String>
+
+    <!-- Toast Notifications -->
+    <system:String x:Key="Toast_TrafficLimitReached">⚠️ تم الوصول إلى حد حركة المرور اليومي!\nالمستخدم: {0} / الحد: {1}</system:String>
+    <system:String x:Key="Toast_SettingsSaved">تم حفظ الإعدادات بنجاح!</system:String>
+    <system:String x:Key="Toast_NetworkConnected">تم الاتصال بالشبكة بنجاح</system:String>
+    <system:String x:Key="Toast_NetworkDisconnected">انقطع الاتصال بالشبكة</system:String>
+    <system:String x:Key="Toast_ConnectionChanged">تم تغيير الاتصال إلى {0}</system:String>
+    <system:String x:Key="Toast_UpdateAvailable">الإصدار الجديد {0} متاح!</system:String>
+    <system:String x:Key="Toast_ErrorOccurred">حدث خطأ: {0}</system:String>
+    <system:String x:Key="Toast_Close">إغلاق</system:String>
+
+    <!-- ============================================ -->
+    <!-- PROCESS NETWORK WINDOW                       -->
+    <!-- ============================================ -->
+    <system:String x:Key="ProcessNetwork_Title">استخدام شبكة العمليات</system:String>
+    <system:String x:Key="ProcessNetwork_Monitoring">مراقبة الاتصالات النشطة...</system:String>
+    <system:String x:Key="ProcessNetwork_LIVE">مباشر</system:String>
+    <system:String x:Key="ProcessNetwork_Process">العملية</system:String>
+    <system:String x:Key="ProcessNetwork_Upload">رفع</system:String>
+    <system:String x:Key="ProcessNetwork_Download">تنزيل</system:String>
+    <system:String x:Key="ProcessNetwork_Total">الإجمالي</system:String>
+    <system:String x:Key="ProcessNetwork_Speed">السرعة</system:String>
+    <system:String x:Key="ProcessNetwork_Name">الاسم</system:String>
+    <system:String x:Key="ProcessNetwork_SortBy">ترتيب حسب:</system:String>
+    <system:String x:Key="ProcessNetwork_SortBySpeed">ترتيب حسب السرعة</system:String>
+    <system:String x:Key="ProcessNetwork_SortByTotal">ترتيب حسب إجمالي حركة المرور</system:String>
+    <system:String x:Key="ProcessNetwork_SortByName">ترتيب حسب الاسم</system:String>
+    <system:String x:Key="ProcessNetwork_Processes">عملية</system:String>
+    <system:String x:Key="ProcessNetwork_Active">نشط</system:String>
+
+    <!-- Common -->
+    <system:String x:Key="Common_Close">إغلاق</system:String>
+    <system:String x:Key="Common_OK">موافق</system:String>
+    <system:String x:Key="Common_Cancel">إلغاء</system:String>
+    <system:String x:Key="Common_Save">حفظ</system:String>
+    <system:String x:Key="Common_Apply">تطبيق</system:String>
+    <system:String x:Key="Common_Refresh">تحديث</system:String>
+
+    <!-- ============================================ -->
+    <!-- SPEED TEST WINDOW                            -->
+    <!-- ============================================ -->
+    <system:String x:Key="SpeedTest_Title">اختبار سرعة الإنترنت</system:String>
+    <system:String x:Key="SpeedTest_PoweredBy">بدعم من Cloudflare</system:String>
+    <system:String x:Key="SpeedTest_Ready">جاهز لاختبار اتصالك</system:String>
+    <system:String x:Key="SpeedTest_TapToStart">اضغط للبدء</system:String>
+    <system:String x:Key="SpeedTest_StartTest">بدء الاختبار</system:String>
+    <system:String x:Key="SpeedTest_Ping">زمن الاستجابة</system:String>
+    <system:String x:Key="SpeedTest_Download">تنزيل</system:String>
+    <system:String x:Key="SpeedTest_Upload">رفع</system:String>
+    <system:String x:Key="SpeedTest_Jitter">التذبذب</system:String>
+    <system:String x:Key="SpeedTest_PacketLoss">فقدان الحزم</system:String>
+    <system:String x:Key="SpeedTest_ConnectionDetails">تفاصيل الاتصال</system:String>
+    <system:String x:Key="SpeedTest_PublicIP">IP العام</system:String>
+    <system:String x:Key="SpeedTest_LocalIP">IP المحلي</system:String>
+    <system:String x:Key="SpeedTest_ConnectionType">نوع الاتصال</system:String>
+    <system:String x:Key="SpeedTest_ISP">مزود الخدمة</system:String>
+    <system:String x:Key="SpeedTest_Server">الخادم</system:String>
+    <system:String x:Key="SpeedTest_Location">الموقع</system:String>
+    <system:String x:Key="SpeedTest_TestedOn">تم الاختبار في:</system:String>
+    <system:String x:Key="SpeedTest_ConnectionRating">تقييم الاتصال</system:String>
+    <system:String x:Key="SpeedTest_Gaming">الألعاب</system:String>
+    <system:String x:Key="SpeedTest_Streaming">البث</system:String>
+    <system:String x:Key="SpeedTest_VideoCall">مكالمات الفيديو</system:String>
+    <system:String x:Key="SpeedTest_Browsing">التصفح</system:String>
+
+    <!-- ============================================ -->
+    <!-- NETWORK INFO WINDOW                          -->
+    <!-- ============================================ -->
+    <system:String x:Key="ConnectionDetails_Title">تفاصيل الاتصال</system:String>
+    <system:String x:Key="ConnectionDetails_Subtitle">معلومات اتصالات الشبكة</system:String>
+    <system:String x:Key="ConnectionDetails_Description">الوصف</system:String>
+    <system:String x:Key="ConnectionDetails_IPAddress">عنوان IP</system:String>
+    <system:String x:Key="ConnectionDetails_SubnetMask">قناع الشبكة الفرعية</system:String>
+    <system:String x:Key="ConnectionDetails_DefaultGateway">البوابة الافتراضية</system:String>
+    <system:String x:Key="ConnectionDetails_DNSServers">خوادم DNS</system:String>
+    <system:String x:Key="ConnectionDetails_MACAddress">عنوان MAC</system:String>
+    <system:String x:Key="ConnectionDetails_LinkSpeed">سرعة الارتباط</system:String>
+    <system:String x:Key="ConnectionDetails_BytesReceived">البايتات المستلمة</system:String>
+    <system:String x:Key="ConnectionDetails_BytesSent">البايتات المرسلة</system:String>
+    <system:String x:Key="ConnectionDetails_ConnectionType">نوع الاتصال</system:String>
+    <system:String x:Key="ConnectionDetails_StatusActive">نشط</system:String>
+    <system:String x:Key="ConnectionDetails_StatusInactive">غير نشط</system:String>
+
+    <!-- ============================================ -->
+    <!-- HISTORY WINDOW                               -->
+    <!-- ============================================ -->
+    <system:String x:Key="History_WindowTitle">إحصائيات حركة المرور التاريخية</system:String>
+    <system:String x:Key="History_ListView">عرض القائمة</system:String>
+    <system:String x:Key="History_CalendarView">عرض التقويم</system:String>
+    <system:String x:Key="History_ViewType">نوع العرض:</system:String>
+    <system:String x:Key="History_DayView">عرض يومي</system:String>
+    <system:String x:Key="History_MonthView">عرض شهري</system:String>
+    <system:String x:Key="History_YearView">عرض سنوي</system:String>
+    <system:String x:Key="History_FigureViewScale">مقياس عرض الشكل:</system:String>
+    <system:String x:Key="History_LinearScale">مقياس خطي</system:String>
+    <system:String x:Key="History_LogarithmicScale">مقياس لوغاريتمي</system:String>
+    <system:String x:Key="History_DateColumn">التاريخ</system:String>
+    <system:String x:Key="History_UploadColumn">رفع</system:String>
+    <system:String x:Key="History_DownloadColumn">تنزيل</system:String>
+    <system:String x:Key="History_TotalTrafficColumn">إجمالي حركة المرور</system:String>
+    <system:String x:Key="History_FigureColumn">الشكل</system:String>
+    <system:String x:Key="History_Legend">الإيضاح:</system:String>
+    <system:String x:Key="History_MonthTotalTraffic">إجمالي حركة المرور للشهر الحالي:</system:String>
+    <system:String x:Key="History_Legend_0_1GB">0 ~ 1 جيجابايت</system:String>
+    <system:String x:Key="History_Legend_1_10GB">1 ~ 10 جيجابايت</system:String>
+    <system:String x:Key="History_Legend_10_100GB">10 ~ 100 جيجابايت</system:String>
+    <system:String x:Key="History_Legend_100GB_1TB">100 جيجابايت ~ 1 تيرابايت</system:String>
+    <system:String x:Key="History_Legend_1TBplus">1 تيرابايت +</system:String>
+
+    <!-- ============================================ -->
+    <!-- ABOUT WINDOW                                 -->
+    <!-- ============================================ -->
+    <system:String x:Key="About_WindowTitle">حول</system:String>
+    <system:String x:Key="About_VersionLabel">الإصدار 1.0.0</system:String>
+    <system:String x:Key="About_Description">أداة بسيطة لمراقبة حركة مرور الشبكة</system:String>
+    <system:String x:Key="About_MadeWithLove_Part1">صُنع بـ</system:String>
+    <system:String x:Key="About_MadeWithLove_Part2">بواسطة</system:String>
+    <system:String x:Key="About_DeveloperName">طارق صادق</system:String>
+    <system:String x:Key="About_LeadDeveloper">المطور الرئيسي</system:String>
+    <system:String x:Key="About_Website">الموقع الإلكتروني</system:String>
+    <system:String x:Key="About_Donate">تبرع</system:String>
+    <system:String x:Key="About_Email">البريد الإلكتروني</system:String>
+    <system:String x:Key="About_AllRightsReserved">جميع الحقوق محفوظة</system:String>
+    <system:String x:Key="About_StatusActive">نشط</system:String>
+    <system:String x:Key="About_OK">موافق</system:String>
+
+    <!-- ============================================ -->
+    <!-- TASKBAR WINDOW                               -->
+    <!-- ============================================ -->
+    <system:String x:Key="Taskbar_UploadArrow">&#x2191;</system:String>
+    <system:String x:Key="Taskbar_DownloadArrow">&#x2193;</system:String>
+    <system:String x:Key="Taskbar_Separator">:</system:String>
+
+    <!-- ============================================ -->
+    <!-- OPTIONS WINDOW - ADDITIONAL                  -->
+    <!-- ============================================ -->
+    <system:String x:Key="Options_MainWindowSettings">النافذة الرئيسية</system:String>
+    <system:String x:Key="Options_TaskbarWindowSettings">نافذة شريط المهام</system:String>
+    <system:String x:Key="Options_GeneralSettings">عام</system:String>
+    <system:String x:Key="Options_ColorAndFont">اللون والخط</system:String>
+    <system:String x:Key="Options_Font">الخط:</system:String>
+    <system:String x:Key="Options_ChooseFont">اختر الخط...</system:String>
+    <system:String x:Key="Options_RestoreDefault">استعادة الافتراضي</system:String>
+    <system:String x:Key="Options_TextColor">لون النص:</system:String>
+    <system:String x:Key="Options_BackgroundColor">لون الخلفية:</system:String>
+    <system:String x:Key="Options_BackgroundTransparent">خلفية شفافة</system:String>
+    <system:String x:Key="Options_DisplayText">نص العرض</system:String>
+    <system:String x:Key="Options_SwapUpDown">تبديل موضع الرفع والتنزيل</system:String>
+    <system:String x:Key="Options_SpeedShortMode">الوضع المختصر لعرض سرعة الشبكة</system:String>
+    <system:String x:Key="Options_SeparateValueUnit">فصل القيمة والوحدة بمسافة</system:String>
+    <system:String x:Key="Options_ShowToolTip">إظهار تلميح الماوس</system:String>
+    <system:String x:Key="Options_NetSpeedUnit">وحدة سرعة الشبكة</system:String>
+    <system:String x:Key="Options_NetspeedUnit">وحدة سرعة الشبكة:</system:String>
+    <system:String x:Key="Options_UnitByte">بايت (KB/s, MB/s)</system:String>
+    <system:String x:Key="Options_UnitBit">بت (Kbps, Mbps)</system:String>
+    <system:String x:Key="Options_UnitSelection">اختيار الوحدة:</system:String>
+    <system:String x:Key="Options_WindowBehavior">سلوك النافذة</system:String>
+    <system:String x:Key="Options_AlwaysOnTop">دائماً في المقدمة</system:String>
+    <system:String x:Key="Options_LockWindowPos">قفل موضع النافذة</system:String>
+    <system:String x:Key="Options_HideMainWindowFullscreen">إخفاء النافذة الرئيسية عند تشغيل البرنامج بملء الشاشة</system:String>
+    <system:String x:Key="Options_MousePenetrate">اختراق الماوس (نقر من خلال)</system:String>
+    <system:String x:Key="Options_DoubleClickAction">إجراء النقر المزدوج:</system:String>
+    <system:String x:Key="Options_OpenConnectionDetails">فتح تفاصيل الاتصال</system:String>
+    <system:String x:Key="Options_OpenHistoricalTraffic">فتح إحصائيات حركة المرور التاريخية</system:String>
+    <system:String x:Key="Options_OpenOptions">فتح الخيارات</system:String>
+    <system:String x:Key="Options_OpenTaskManager">فتح مدير المهام</system:String>
+    <system:String x:Key="Options_DoNothing">لا تفعل شيئاً</system:String>
+    <system:String x:Key="Options_Opacity">الشفافية</system:String>
+    <system:String x:Key="Options_TaskbarPosition">الموضع</system:String>
+    <system:String x:Key="Options_ShowTaskbarWindow">إظهار نافذة شريط المهام</system:String>
+    <system:String x:Key="Options_TaskbarWindowOnLeft">نافذة شريط المهام على اليسار</system:String>
+    <system:String x:Key="Options_HorizontalOffset">الإزاحة الأفقية</system:String>
+    <system:String x:Key="Options_VerticalOffset">الإزاحة الرأسية</system:String>
+    <system:String x:Key="Options_TaskbarDisplay">العرض</system:String>
+    <system:String x:Key="Options_ShowArrows">إظهار الأسهم</system:String>
+    <system:String x:Key="Options_DigitsNumber">عدد الأرقام</system:String>
+    <system:String x:Key="Options_Characters">محارف</system:String>
+    <system:String x:Key="Options_Appearance">المظهر</system:String>
+    <system:String x:Key="Options_Theme">السمة</system:String>
+    <system:String x:Key="Options_ThemeLight">فاتح</system:String>
+    <system:String x:Key="Options_ThemeDark">داكن</system:String>
+    <system:String x:Key="Options_ThemeAuto">تلقائي (النظام)</system:String>
+    <system:String x:Key="Options_Language">اللغة</system:String>
+    <system:String x:Key="Options_Startup">بدء التشغيل</system:String>
+    <system:String x:Key="Options_StartWithWindows">بدء التشغيل مع Windows</system:String>
+    <system:String x:Key="Options_StartMinimized">بدء التشغيل مصغراً</system:String>
+    <system:String x:Key="Options_ShowTrayIcon">إظهار أيقونة شريط المهام</system:String>
+    <system:String x:Key="Options_HardwareAcceleration">تسريع الأجهزة</system:String>
+    <system:String x:Key="Options_Monitoring">المراقبة</system:String>
+    <system:String x:Key="Options_UpdateInterval">فترة التحديث</system:String>
+    <system:String x:Key="Options_AutoSelect">تحديد تلقائي للاتصال النشط</system:String>
+    <system:String x:Key="Options_SelectNetworkConnections">اختر اتصالات الشبكة</system:String>
+    <system:String x:Key="Options_Notification">الإشعارات</system:String>
+    <system:String x:Key="Options_NotifyTrafficReached">الإشعار عند الوصول إلى حد حركة المرور اليومية</system:String>
+    <system:String x:Key="Options_AutoUnit">تلقائي (ديناميكي)</system:String>
+    <system:String x:Key="Options_Save">حفظ</system:String>
+    <system:String x:Key="Options_Cancel">إلغاء</system:String>
+
+    <!-- ============================================ -->
+    <!-- MAIN WINDOW                                  -->
+    <!-- ============================================ -->
+    <system:String x:Key="MainWindow_Title">مراقب الشبكة</system:String>
+    <system:String x:Key="MainWindow_UploadLabel">رفع:</system:String>
+    <system:String x:Key="MainWindow_DownloadLabel">تنزيل:</system:String>
+    <system:String x:Key="MainWindow_TodayLabel">اليوم:</system:String>
+    <system:String x:Key="MainWindow_Menu">القائمة</system:String>
+    <system:String x:Key="MainWindow_Close">إغلاق</system:String>
+
+    <!-- ============================================ -->
+    <!-- CONTEXT MENU                                 -->
+    <!-- ============================================ -->
+    <system:String x:Key="Menu_SelectNetworkConnections">اختر اتصالات الشبكة</system:String>
+    <system:String x:Key="Menu_AutoSelect">تحديد تلقائي</system:String>
+    <system:String x:Key="Menu_ConnectionDetails">تفاصيل الاتصال</system:String>
+    <system:String x:Key="Menu_HistoricalTraffic">إحصائيات حركة المرور التاريخية</system:String>
+    <system:String x:Key="Menu_ProcessNetworkUsage">استخدام شبكة العمليات</system:String>
+    <system:String x:Key="Menu_SpeedTest">اختبار السرعة</system:String>
+    <system:String x:Key="Menu_Options">خيارات...</system:String>
+    <system:String x:Key="Menu_ShowMainWindow">إظهار النافذة الرئيسية</system:String>
+    <system:String x:Key="Menu_HideMainWindow">إخفاء النافذة الرئيسية</system:String>
+    <system:String x:Key="Menu_ShowTaskbarWindow">إظهار نافذة شريط المهام</system:String>
+    <system:String x:Key="Menu_CloseTaskbarWindow">إغلاق نافذة شريط المهام</system:String>
+    <system:String x:Key="Menu_TaskManager">مدير المهام</system:String>
+    <system:String x:Key="Menu_Help">مساعدة</system:String>
+    <system:String x:Key="Menu_About">حول...</system:String>
+    <system:String x:Key="Menu_Exit">خروج</system:String>
+
+    <!-- ============================================ -->
+    <!-- COMMON                                       -->
+    <!-- ============================================ -->
+    <system:String x:Key="Common_Error">خطأ</system:String>
+    <system:String x:Key="Common_Success">نجاح</system:String>
+    <system:String x:Key="Common_Warning">تحذير</system:String>
+    <system:String x:Key="Common_Info">معلومات</system:String>
+    <system:String x:Key="Common_Today">اليوم</system:String>
+    <system:String x:Key="Common_Yesterday">أمس</system:String>
+
+    <!-- Tray & Taskbar -->
+    <system:String x:Key="Tray_DefaultTooltip">مراقب الشبكة</system:String>
+    <system:String x:Key="Tray_LimitTooltip">⚠️ مراقب الشبكة - تم الوصول إلى الحد اليومي!</system:String>
+    <system:String x:Key="Tray_SpeedTooltip">↑ {0}\n↓ {1}</system:String>
+    <system:String x:Key="Taskbar_Tooltip">↑ {0}\n↓ {1}\nاليوم: {2}</system:String>
+
+    <!-- Process Network -->
+    <system:String x:Key="ProcessNetwork_StatusFormat">{0} عملية ({1} نشطة)</system:String>
+    <system:String x:Key="ProcessNetwork_LastUpdated">آخر تحديث: {0}</system:String>
+
+    <!-- Speed Test -->
+    <system:String x:Key="SpeedTest_GaugeReady">جاهز</system:String>
+    <system:String x:Key="SpeedTest_CancelBtn">إلغاء</system:String>
+    <system:String x:Key="SpeedTest_Preparing">تجيهز</system:String>
+    <system:String x:Key="SpeedTest_Testing">اختبار...</system:String>
+    <system:String x:Key="SpeedTest_GaugeComplete">اكتمل</system:String>
+    <system:String x:Key="SpeedTest_Cancelled">تم إلغاء الاختبار.</system:String>
+    <system:String x:Key="SpeedTest_ErrorPrefix">خطأ: {0}</system:String>
+    <system:String x:Key="SpeedTest_FinalStatus">✓ اكتمل الاختبار! ↓{0:F1} / ↑{1:F1} ميجابت/ث</system:String>
+    <system:String x:Key="SpeedTest_FindingServer">جارٍ البحث عن أفضل خادم...</system:String>
+    <system:String x:Key="SpeedTest_GettingNetworkInfo">جارٍ الحصول على معلومات الشبكة...</system:String>
+    <system:String x:Key="SpeedTest_TestingLatency">جارٍ اختبار زمن الاستجابة...</system:String>
+    <system:String x:Key="SpeedTest_TestingPacketLoss">جارٍ اختبار فقدان الحزم...</system:String>
+    <system:String x:Key="SpeedTest_TestingDownload">جارٍ اختبار سرعة التنزيل...</system:String>
+    <system:String x:Key="SpeedTest_TestingUpload">جارٍ اختبار سرعة الرفع...</system:String>
+    <system:String x:Key="SpeedTest_Complete">اكتمل الاختبار!</system:String>
+    <system:String x:Key="SpeedTest_GetReadyDownload">استعد لاختبار التنزيل</system:String>
+    <system:String x:Key="SpeedTest_GetReadyUpload">استعد لاختبار الرفع</system:String>
+    <system:String x:Key="SpeedTest_UnitMs">مللي ثانية</system:String>
+    <system:String x:Key="SpeedTest_UnitMbps">ميجابت/ث</system:String>
+
+    <!-- Ratings -->
+    <system:String x:Key="Rating_FactorPing">زمن الاستجابة</system:String>
+    <system:String x:Key="Rating_FactorJitter">التذبذب</system:String>
+    <system:String x:Key="Rating_FactorPacketLoss">فقدان الحزم</system:String>
+    <system:String x:Key="Rating_StatusExcellent">✓ ممتاز</system:String>
+    <system:String x:Key="Rating_StatusGood">✓ جيد</system:String>
+    <system:String x:Key="Rating_StatusHigh">⚠ مرتفع</system:String>
+    <system:String x:Key="Rating_StatusStable">✓ مستقر</system:String>
+    <system:String x:Key="Rating_StatusUnstable">⚠ غير مستقر</system:String>
+    <system:String x:Key="Rating_StatusPerfect">✓ مثالي</system:String>
+    <system:String x:Key="Rating_StatusLossy">⚠ به فقدان</system:String>
+    <system:String x:Key="Rating_Excellent">ممتاز</system:String>
+    <system:String x:Key="Rating_Good">جيد</system:String>
+    <system:String x:Key="Rating_Fair">متوسط</system:String>
+    <system:String x:Key="Rating_Poor">ضعيف</system:String>
+    <system:String x:Key="Rating_GamingTitle">الألعاب</system:String>
+    <system:String x:Key="Rating_GamingSummary">مناسب للألعاب {0}.</system:String>
+    <system:String x:Key="Rating_GamingPerfect">مثالي للألعاب التنافسية!</system:String>
+    <system:String x:Key="Rating_GamingHighPing">قد يتسبب زمن الاستجابة المرتفع في تأخير. جرب اتصال سلكي.</system:String>
+    <system:String x:Key="Rating_GamingUnstable">اتصال غير مستقر. تحقق من تداخل الواي فاي.</system:String>
+    <system:String x:Key="Rating_GamingLossy">تم اكتشاف فقدان للحزم. اتصل بمزود الخدمة إذا استمر.</system:String>
+    <system:String x:Key="Rating_StreamingTitle">البث</system:String>
+    <system:String x:Key="Rating_StreamingSummary">جودة بث {0}.</system:String>
+    <system:String x:Key="Rating_StreamingUpgrade">فكر في الترقية للبث عالي الدقة.</system:String>
+    <system:String x:Key="Rating_StreamingGood">جيد للبث!</system:String>
+    <system:String x:Key="Rating_VideoCallTitle">مكالمات الفيديو</system:String>
+    <system:String x:Key="Rating_VideoCallSummary">{0} لمؤتمرات الفيديو.</system:String>
+    <system:String x:Key="Rating_VideoCallLowUpload">قد يؤثر انخفاض سرعة الرفع على جودة الفيديو.</system:String>
+    <system:String x:Key="Rating_VideoCallGood">جيد للمكالمات!</system:String>
+    <system:String x:Key="Rating_BrowsingTitle">التصفح</system:String>
+    <system:String x:Key="Rating_BrowsingSummary">تجربة تصفح {0}.</system:String>
+    <system:String x:Key="Rating_BrowsingSlow">قد يتم تحميل الصفحات ببطء.</system:String>
+    <system:String x:Key="Rating_BrowsingSmooth">تصفح سلس!</system:String>
+    <system:String x:Key="Rating_4KReady">جاهز لـ 4K</system:String>
+    <system:String x:Key="Rating_1080pHD">1080p عالية الدقة</system:String>
+    <system:String x:Key="Rating_720pHD">720p عالية الدقة</system:String>
+    <system:String x:Key="Rating_SDOnly">جودة قياسية فقط</system:String>
+    <system:String x:Key="Rating_TooSlow">بطيء جداً</system:String>
+    <system:String x:Key="Rating_HDReady">جاهز لـ HD</system:String>
+    <system:String x:Key="Rating_SDReady">جاهز لـ SD</system:String>
+    <system:String x:Key="Rating_Fast">سريع</system:String>
+    <system:String x:Key="Rating_VerySlow">بطيء جداً</system:String>
+
+    <!-- History -->
+    <system:String x:Key="History_CellTooltip">التاريخ: {0}\nالإجمالي: {1}</system:String>
+
+    <!-- About -->
+    <system:String x:Key="About_FallbackMessage">حول مراقب الشبكة\nالإصدار 1.0\n\nأداة لمراقبة حركة مرور الشبكة</system:String>
+    <system:String x:Key="About_LinkError">تعذر فتح الرابط: {0}</system:String>
+
+    <!-- Connection Types -->
+    <system:String x:Key="ConnType_WiFi">واي فاي</system:String>
+    <system:String x:Key="ConnType_Ethernet">إيثرنت</system:String>
+    <system:String x:Key="ConnType_VPN">VPN</system:String>
+    <system:String x:Key="ConnType_Network">شبكة</system:String>
+
+    <!-- Common -->
+    <system:String x:Key="Common_NA">غير متاح</system:String>
+    <system:String x:Key="Common_Unknown">غير معروف</system:String>
+
+    <system:String x:Key="Rating_Slow">بطيء</system:String>
+    <system:String x:Key="Rating_GamingCompetitive">تنافسية</system:String>
+    <system:String x:Key="Rating_GamingCasual">عادية</system:String>
+    <system:String x:Key="Rating_GamingSinglePlayer">فردية</system:String>
+    <system:String x:Key="Rating_Perfect">مثالي</system:String>
+
+</ResourceDictionary>
